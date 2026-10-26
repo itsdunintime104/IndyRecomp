@@ -1780,3 +1780,9 @@
 0x4026EE  # jmp 0x4AEB80
 0x4026F8  # jmp 0x50B7E0
 0x402702  # jmp 0x491A70
+#
+# A menu-item handler table entry that follows 0x00 fill, not int3 fill or a ret, so the
+# sweeps above missed it. Changing an effect setting in the options menu stopped at
+# `indirect call to unresolved VA 0x0069F5F0` from 0x00696ABA; the handler table of
+# menu item 0x402 at 0x96FC9C holds it next to three lifted handlers.
+0x69F5F0  # [0x96FCA0]
