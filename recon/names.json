@@ -1,0 +1,8444 @@
+{
+ "0x004082D0": {
+  "name": "`vector ctor iterator'",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00408940": {
+  "name": "Text_ExpandButtonString",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "7 literal(s): '[TOGGLERIGHT]'"
+ },
+ "0x0041A0A0": {
+  "name": "variant",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009085E4"
+ },
+ "0x0041A190": {
+  "name": "security_access",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009085FC"
+ },
+ "0x0042D2E0": {
+  "name": "CheckResetBits",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'NoWeapon'"
+ },
+ "0x00432590": {
+  "name": "InitGameAfterConfig",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'cut\\\\clips.txt'"
+ },
+ "0x00435570": {
+  "name": "AddSurfaceRipples",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'SabFField'"
+ },
+ "0x00437B50": {
+  "name": "DeactivatePlayer",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'BeenDeactivated'"
+ },
+ "0x0043A250": {
+  "name": "ObjHitShield",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'DDekaHit'"
+ },
+ "0x0043C510": {
+  "name": "KillGameObject",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'BeenKilled'"
+ },
+ "0x0043E020": {
+  "name": "ObjHitObj",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'LostHitPoints'"
+ },
+ "0x00443420": {
+  "name": "GetNamedAPIObject",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'Player%d'"
+ },
+ "0x0044B100": {
+  "name": "Condition_InContextInit",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "5 literal(s): 'BALLOONING'"
+ },
+ "0x0044E260": {
+  "name": "Action_SetTakeOverTarget",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'ifCanTakeover'"
+ },
+ "0x0044F3F0": {
+  "name": "SetSide",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E1F0"
+ },
+ "0x0044FB50": {
+  "name": "SetStateArea",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E1FC"
+ },
+ "0x0044FF10": {
+  "name": "Kill",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E2D4"
+ },
+ "0x00451030": {
+  "name": "SetLocator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E088"
+ },
+ "0x00451540": {
+  "name": "SnapToLocator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E07C"
+ },
+ "0x00451A20": {
+  "name": "BigJumpToLocator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E0AC"
+ },
+ "0x00451D60": {
+  "name": "BigJump",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E0B8"
+ },
+ "0x004523C0": {
+  "name": "SetDoomedEscapeLocator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E0C4"
+ },
+ "0x004526C0": {
+  "name": "SnapToPosition",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E0D0"
+ },
+ "0x00452F60": {
+  "name": "SnapToSockPosition",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E0DC"
+ },
+ "0x00453650": {
+  "name": "SetOpponent",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E208"
+ },
+ "0x00453A60": {
+  "name": "AttackOpponent",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E214"
+ },
+ "0x004540E0": {
+  "name": "EngageOpponent",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E220"
+ },
+ "0x00454D20": {
+  "name": "ShootAtOpponent",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E22C"
+ },
+ "0x00455C50": {
+  "name": "SetIgnorePlayerItemsTargetting",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E358"
+ },
+ "0x00455DA0": {
+  "name": "SetInvulnerable",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E364"
+ },
+ "0x004564A0": {
+  "name": "DontAvoidCharacter",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E37C"
+ },
+ "0x00456650": {
+  "name": "DontPush",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E370"
+ },
+ "0x004581D0": {
+  "name": "SetRunSpeed",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E424"
+ },
+ "0x00458830": {
+  "name": "SetHitPoints",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E43C"
+ },
+ "0x00458D10": {
+  "name": "SetMessage",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E454"
+ },
+ "0x00458EB0": {
+  "name": "SetScriptParam",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E46C"
+ },
+ "0x00459470": {
+  "name": "AddPartDebris",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E484"
+ },
+ "0x0045A3A0": {
+  "name": "Action_SetMaxMovementRange",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'All_Non_Party'"
+ },
+ "0x0045A7B0": {
+  "name": "SetScaleOverride",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E8B0"
+ },
+ "0x0045BBB0": {
+  "name": "ParseAIPathCnxFlag",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'NO_DESTINATION_CHECK'"
+ },
+ "0x0045C4A0": {
+  "name": "Action_CnxHelper",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'grapple='"
+ },
+ "0x0045C9A0": {
+  "name": "SetPath",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E064"
+ },
+ "0x0045CB90": {
+  "name": "GoToLevelPath",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E058"
+ },
+ "0x0045CED0": {
+  "name": "GoToOriginalPath",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E070"
+ },
+ "0x0045D700": {
+  "name": "Action_PlayGizObstacle",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'stayshut'"
+ },
+ "0x0045D8D0": {
+  "name": "PlayGizSpecial",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E700"
+ },
+ "0x0045E670": {
+  "name": "SetAnimSpeedMul",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E1E4"
+ },
+ "0x0045E940": {
+  "name": "SetTaggable",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E16C"
+ },
+ "0x0045EE10": {
+  "name": "TakeDamage",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E1A8"
+ },
+ "0x0045F380": {
+  "name": "Action_UseForce",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'triggered_by_hit'"
+ },
+ "0x0045FBB0": {
+  "name": "Action_PlaySfx",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "4 literal(s): 'character_pos='"
+ },
+ "0x0045FE60": {
+  "name": "Action_CameraCut",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'FollowTgt'"
+ },
+ "0x00461870": {
+  "name": "SetForceBack",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E658"
+ },
+ "0x00461AB0": {
+  "name": "FaceCamera",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E664"
+ },
+ "0x00462130": {
+  "name": "Action_SpinOnSpot",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'rot_rate='"
+ },
+ "0x004625B0": {
+  "name": "Action_GameFollowPlayer",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'hold_special_button'"
+ },
+ "0x00462900": {
+  "name": "Action_MoveForward",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'rand_turn_dir'"
+ },
+ "0x00464BA0": {
+  "name": "Action_AssignLocatorInSet",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'locator=mylocator'"
+ },
+ "0x00464E20": {
+  "name": "Action_GetLocatorFromSet",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "10 literal(s): 'nearest_either_player'"
+ },
+ "0x00465DD0": {
+  "name": "AddGameMsgCount",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E820"
+ },
+ "0x00466730": {
+  "name": "Action_AddMiscPickups",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'torpedo='"
+ },
+ "0x004668B0": {
+  "name": "SetLayer",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E880"
+ },
+ "0x00466A40": {
+  "name": "CreateRider",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E88C"
+ },
+ "0x004675F0": {
+  "name": "ForceLightning",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E8D4"
+ },
+ "0x00467C10": {
+  "name": "SetTechnoComplete",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E934"
+ },
+ "0x004689E0": {
+  "name": "AddTorpedoPacket",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090E898"
+ },
+ "0x0046A490": {
+  "name": "IgnorePhobia",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090EAFC"
+ },
+ "0x0046A780": {
+  "name": "AttachNodeToPlatform",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090EB20"
+ },
+ "0x0046ABB0": {
+  "name": "SetHeadlights",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0090EB44"
+ },
+ "0x0047D1B0": {
+  "name": "SetVisibility",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00910648"
+ },
+ "0x0047D380": {
+  "name": "SetPickupVisibility",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00910660"
+ },
+ "0x0047D730": {
+  "name": "ActivateChar",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00910678"
+ },
+ "0x0047DC60": {
+  "name": "ChangeTechnoTarget",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009106A8"
+ },
+ "0x0047E080": {
+  "name": "SetAIMessage",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009106B4"
+ },
+ "0x0047E200": {
+  "name": "SetAIState",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009106C0"
+ },
+ "0x0047E6A0": {
+  "name": "GoToNewLevel",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009106D8"
+ },
+ "0x0047E8E0": {
+  "name": "PlayObstacle",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009106F0"
+ },
+ "0x0047EC70": {
+  "name": "PlaySpecial",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009106FC"
+ },
+ "0x0047EE20": {
+  "name": "PlayForce",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00910708"
+ },
+ "0x0047EFB0": {
+  "name": "PlayRadio",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00910720"
+ },
+ "0x0047F1C0": {
+  "name": "Action_CnxController",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'obstacle='"
+ },
+ "0x0047F490": {
+  "name": "HitBlowup",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00910744"
+ },
+ "0x0047FA90": {
+  "name": "SetRailSpecial",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00910780"
+ },
+ "0x004842C0": {
+  "name": "GizForceSFX_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'forcesfx_start'"
+ },
+ "0x0048B6C0": {
+  "name": "PowerUp_ImpactPart",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'Gungan_BlueOrbBounce'"
+ },
+ "0x0048DD50": {
+  "name": "GizPanel_Update",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'DPanelDis'"
+ },
+ "0x00495CE0": {
+  "name": "Hub_DrawPanel",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): '%s, %s %i'"
+ },
+ "0x004A4870": {
+  "name": "LSW_Hub_ResetAI",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'BandDoor_Open'"
+ },
+ "0x004A4CE0": {
+  "name": "Hub_GoneThroughDoor",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'Table_%d'"
+ },
+ "0x004A5520": {
+  "name": "TagCode",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'JustBeenTakenOver'"
+ },
+ "0x004A5F40": {
+  "name": "ReleaseTakeOver",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'ReleasedTakeOver'"
+ },
+ "0x004A9A40": {
+  "name": "LoadAreaData",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'stuff\\\\char_lsw1.ptl'"
+ },
+ "0x004AC7A0": {
+  "name": "WorldInfo_Load",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'levels\\\\titles\\\\'"
+ },
+ "0x004ADF20": {
+  "name": "WorldInfo_Load",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'levels\\\\titles\\\\titles'"
+ },
+ "0x004B0800": {
+  "name": "Condition_GotLocatorInSet",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'ChallengeMode'"
+ },
+ "0x004E2C70": {
+  "name": "DrawPanel",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'X:%.2f Y:%.2f Z:%.2f'"
+ },
+ "0x004EA1B0": {
+  "name": "SetLevelSfxBits",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "10 literal(s): 'imp_proton_torp'"
+ },
+ "0x004ED390": {
+  "name": "InitShop",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "13 literal(s): 'gold_brick'"
+ },
+ "0x004EE6A0": {
+  "name": "SelectShopItem",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'MenuNoEntry'"
+ },
+ "0x004FA480": {
+  "name": "LoadPermData",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'stuff\\\\legal\\\\'"
+ },
+ "0x004FA8A0": {
+  "name": "LoadPerm1",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "8 literal(s): 'stuff\\\\general.par'"
+ },
+ "0x004FB040": {
+  "name": "LoadPerm2",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "6 literal(s): 'chars\\\\specialmoves.txt'"
+ },
+ "0x004FB510": {
+  "name": "LoadPermData",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'stuff\\\\text\\\\starwars_font'"
+ },
+ "0x004FB590": {
+  "name": "LoadPermData",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'stuff\\\\pc_bits.gsc'"
+ },
+ "0x004FB8D0": {
+  "name": "LoadPermData",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "8 literal(s): 'levels\\\\episodes.txt'"
+ },
+ "0x004FE620": {
+  "name": "StarWars_ParseAIPathCnxFlag",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "6 literal(s): 'FULLTERRAIN'"
+ },
+ "0x004FF430": {
+  "name": "Text_LoadStrings",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'stuff\\\\text\\\\trc.csv'"
+ },
+ "0x004FF6D0": {
+  "name": "PartImpact_ThermalDetonator",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'ThermalDet_Bnce'"
+ },
+ "0x0050CFF0": {
+  "name": "KaminoC_Init",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "12 literal(s): 'disco_off%d'"
+ },
+ "0x0050E5D0": {
+  "name": "MosEisleyA_Init",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'obstacle1'"
+ },
+ "0x005109F0": {
+  "name": "ANewHopeA_Init",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'obstacle7'"
+ },
+ "0x0052DA70": {
+  "name": "NuMusic::Debug",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "9 literal(s): 'CUTSCENE'"
+ },
+ "0x00530950": {
+  "name": "WavReader::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00530960": {
+  "name": "WavReader::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833510 slot 2"
+ },
+ "0x00530970": {
+  "name": "WavReader::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833510 slot 4"
+ },
+ "0x005309B0": {
+  "name": "WavReader::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833510 slot 5"
+ },
+ "0x005309D0": {
+  "name": "WavReader::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833510 slot 6"
+ },
+ "0x005309F0": {
+  "name": "WavReader::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833510 slot 3"
+ },
+ "0x00530A20": {
+  "name": "WavReader::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833510 slot 8"
+ },
+ "0x00530AD0": {
+  "name": "WavReader::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00530C00": {
+  "name": "WavReader::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833510 slot 1"
+ },
+ "0x00530E30": {
+  "name": "WavReader::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833510 slot 7"
+ },
+ "0x00530F60": {
+  "name": "WavReader::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833510 slot 0"
+ },
+ "0x00530FF0": {
+  "name": "OggReader::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00531050": {
+  "name": "OggReader::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833548 slot 2"
+ },
+ "0x00531060": {
+  "name": "OggReader::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833548 slot 5"
+ },
+ "0x005310A0": {
+  "name": "OggReader::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833548 slot 4"
+ },
+ "0x005310B0": {
+  "name": "OggReader::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833548 slot 6"
+ },
+ "0x005310F0": {
+  "name": "OggReader::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833548 slot 7"
+ },
+ "0x00531200": {
+  "name": "OggReader::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833548 slot 3"
+ },
+ "0x00531240": {
+  "name": "OggReader::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833548 slot 8"
+ },
+ "0x005313B0": {
+  "name": "OggReader::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00531460": {
+  "name": "OggReader::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833548 slot 1"
+ },
+ "0x00531790": {
+  "name": "OggReader::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833548 slot 0"
+ },
+ "0x0057B0D0": {
+  "name": "edpartSaveEffects",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'NULL instance'"
+ },
+ "0x0057F5B0": {
+  "name": "EdClassInterface::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 7"
+ },
+ "0x0057F5C0": {
+  "name": "EdClassInterface::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 8"
+ },
+ "0x0057F5D0": {
+  "name": "EdClassInterface::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 9"
+ },
+ "0x0057F5E0": {
+  "name": "EdClassInterface::vfunc_10",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 10"
+ },
+ "0x0057F5F0": {
+  "name": "EdClassInterface::vfunc_11",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 11"
+ },
+ "0x0057F600": {
+  "name": "EdClassInterface::vfunc_12",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 12"
+ },
+ "0x0057F610": {
+  "name": "EdClassInterface::vfunc_13",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 13"
+ },
+ "0x0057F620": {
+  "name": "EdClassInterface::vfunc_14",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 14"
+ },
+ "0x0057F630": {
+  "name": "EdClassInterface::vfunc_15",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 15"
+ },
+ "0x0057F640": {
+  "name": "EdClassInterface::vfunc_16",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 16"
+ },
+ "0x0057F650": {
+  "name": "EdClassInterface::vfunc_17",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 17"
+ },
+ "0x0057F660": {
+  "name": "EdClassInterface::vfunc_18",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 18"
+ },
+ "0x0057F670": {
+  "name": "EdClassInterface::vfunc_19",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 19"
+ },
+ "0x0057F680": {
+  "name": "EdClassInterface::vfunc_20",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 20"
+ },
+ "0x0057F690": {
+  "name": "EdClassInterface::vfunc_21",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 21"
+ },
+ "0x0057F6A0": {
+  "name": "EdClassInterface::vfunc_22",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 22"
+ },
+ "0x0057F6B0": {
+  "name": "EdClassInterface::vfunc_23",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 23"
+ },
+ "0x0057F6C0": {
+  "name": "EdClassInterface::vfunc_24",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 24"
+ },
+ "0x0057F6D0": {
+  "name": "EdClassInterface::vfunc_25",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 25"
+ },
+ "0x0057F6E0": {
+  "name": "EdClassInterface::vfunc_26",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 26"
+ },
+ "0x0057F6F0": {
+  "name": "EdClassInterface::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00833FA4 slot 29"
+ },
+ "0x0057F700": {
+  "name": "EdClassInterface::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00833FA4 slot 30"
+ },
+ "0x0057F710": {
+  "name": "EdClassInterface::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00833FA4 slot 0"
+ },
+ "0x0057F830": {
+  "name": "RTLHelper::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0057F860": {
+  "name": "RTLHelper::vfunc_15",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 15"
+ },
+ "0x0057F8E0": {
+  "name": "EdRefRTL::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083412C slot 2"
+ },
+ "0x0057FAE0": {
+  "name": "InitUI",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'Low Time'"
+ },
+ "0x005803A0": {
+  "name": "RTLHelper::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 1"
+ },
+ "0x00580400": {
+  "name": "RTLHelper::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 2"
+ },
+ "0x00580470": {
+  "name": "RTLHelper::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 4"
+ },
+ "0x00580550": {
+  "name": "RTLHelper::vfunc_20",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 20"
+ },
+ "0x005805B0": {
+  "name": "RTLHelper::vfunc_22",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 22"
+ },
+ "0x005805C0": {
+  "name": "RTLHelper::vfunc_23",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 23"
+ },
+ "0x005805D0": {
+  "name": "RTLHelper::vfunc_24",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 24"
+ },
+ "0x005805E0": {
+  "name": "RTLHelper::vfunc_25",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 25"
+ },
+ "0x00580630": {
+  "name": "EdRefFog::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00834298 slot 1"
+ },
+ "0x005807B0": {
+  "name": "EdRefFog::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00834298 slot 2"
+ },
+ "0x00580A40": {
+  "name": "InitUI",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'Blur Density'"
+ },
+ "0x00580F70": {
+  "name": "FogHelper::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008340AC slot 1"
+ },
+ "0x00580F80": {
+  "name": "FogHelper::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008340AC slot 2"
+ },
+ "0x00580FE0": {
+  "name": "FogHelper::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008340AC slot 4"
+ },
+ "0x005810C0": {
+  "name": "FogHelper::vfunc_20",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008340AC slot 20"
+ },
+ "0x00584FA0": {
+  "name": "RTLHelper::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x0083402C slot 0"
+ },
+ "0x00584FC0": {
+  "name": "FogHelper::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008340AC slot 0"
+ },
+ "0x00584FE0": {
+  "name": "EdRefRTL::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083412C slot 1"
+ },
+ "0x00585280": {
+  "name": "RTLHelper::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 5"
+ },
+ "0x005853E0": {
+  "name": "RTLHelper::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083402C slot 6"
+ },
+ "0x00585470": {
+  "name": "FogHelper::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008340AC slot 5"
+ },
+ "0x00585560": {
+  "name": "FogHelper::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008340AC slot 6"
+ },
+ "0x00586A90": {
+  "name": "ATL::AtlAlignUp<int>",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug"
+ },
+ "0x005871B0": {
+  "name": "BaseThing::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x005871D0": {
+  "name": "BaseThing::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344A0 slot 2"
+ },
+ "0x005871E0": {
+  "name": "BaseThing::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344A0 slot 3"
+ },
+ "0x005871F0": {
+  "name": "BaseThing::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344A0 slot 4"
+ },
+ "0x00587200": {
+  "name": "BaseThing::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344A0 slot 5"
+ },
+ "0x00587210": {
+  "name": "BaseThing::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344A0 slot 6"
+ },
+ "0x00587220": {
+  "name": "BaseThing::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344A0 slot 7"
+ },
+ "0x00587230": {
+  "name": "BaseThing::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344A0 slot 8"
+ },
+ "0x00587240": {
+  "name": "BaseThing::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344A0 slot 9"
+ },
+ "0x00587250": {
+  "name": "BaseThing::vfunc_10",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344A0 slot 10"
+ },
+ "0x00587260": {
+  "name": "BaseThing::vfunc_11",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344A0 slot 11"
+ },
+ "0x00587270": {
+  "name": "BaseThing::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00587280": {
+  "name": "ThingManager::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x005872D0": {
+  "name": "ThingManager::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008344D4 slot 0"
+ },
+ "0x005872F0": {
+  "name": "ThingManager::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 1"
+ },
+ "0x00587330": {
+  "name": "ThingManager::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 2"
+ },
+ "0x005873E0": {
+  "name": "ThingManager::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 3"
+ },
+ "0x00587450": {
+  "name": "ThingManager::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 4"
+ },
+ "0x005874A0": {
+  "name": "ThingManager::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 5"
+ },
+ "0x00587520": {
+  "name": "ThingManager::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 6"
+ },
+ "0x00587570": {
+  "name": "ThingManager::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 7"
+ },
+ "0x005875C0": {
+  "name": "ThingManager::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 8"
+ },
+ "0x00587730": {
+  "name": "ThingManager::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 9"
+ },
+ "0x005877B0": {
+  "name": "ThingManager::vfunc_10",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 10"
+ },
+ "0x00587830": {
+  "name": "ThingManager::vfunc_11",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008344D4 slot 11"
+ },
+ "0x005882C0": {
+  "name": "BaseThing::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008344A0 slot 0"
+ },
+ "0x005886B0": {
+  "name": "ParseNode::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00588760": {
+  "name": "ParseNode::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008345F8 slot 0"
+ },
+ "0x00588790": {
+  "name": "ParseNode::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0058A0E0": {
+  "name": "NuFmvStreamPCBink::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083467C slot 3"
+ },
+ "0x0058A0F0": {
+  "name": "NuFmvStreamPCBink::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083467C slot 4"
+ },
+ "0x0058A100": {
+  "name": "NuFmvStreamPCBink::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083467C slot 5"
+ },
+ "0x0058A5B0": {
+  "name": "NuFmvStreamPCBink::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083467C slot 2"
+ },
+ "0x0058A5E0": {
+  "name": "NuFmvStreamPCBink::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083467C slot 6"
+ },
+ "0x0058A930": {
+  "name": "NuFmvStreamPCBink::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083467C slot 0"
+ },
+ "0x0058B050": {
+  "name": "NuFmvBuffer::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00834634 slot 0"
+ },
+ "0x0058B090": {
+  "name": "NuFmvBuffer::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00834634 slot 1"
+ },
+ "0x0058B0A0": {
+  "name": "NuFmvBuffer::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00834634 slot 2"
+ },
+ "0x0058B0D0": {
+  "name": "NuFmvBuffer::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00834634 slot 3"
+ },
+ "0x0058B0F0": {
+  "name": "NuFmvStream::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00834648 slot 1"
+ },
+ "0x0058B100": {
+  "name": "NuFmvStream::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00834648 slot 7"
+ },
+ "0x00593970": {
+  "name": "Text_MakeTime",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): '%i:%.2i.%.2i'"
+ },
+ "0x00596240": {
+  "name": "ConfigureMusic",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'audio\\\\music.cfg'"
+ },
+ "0x0059BB40": {
+  "name": "Grapple_ResetDynamic",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'dynamic%i'"
+ },
+ "0x005A31A0": {
+  "name": "InitTexAnimScripts",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'stuff\\\\ats\\\\'"
+ },
+ "0x005B1C00": {
+  "name": "Players_InitPositions",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'door_to_network'"
+ },
+ "0x005B3C00": {
+  "name": "PortalDoors_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'trigger_at_end'"
+ },
+ "0x005B3E90": {
+  "name": "EquivalentObjects_Configure",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'equivalentobjects'"
+ },
+ "0x005B92E0": {
+  "name": "FadeBase::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x0083541C slot 0"
+ },
+ "0x005B9320": {
+  "name": "Fade::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00835438 slot 5"
+ },
+ "0x005B9330": {
+  "name": "Fade::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00835438 slot 0"
+ },
+ "0x005B9370": {
+  "name": "BlackWipe::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00835454 slot 5"
+ },
+ "0x005B9380": {
+  "name": "BlackWipe::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00835454 slot 0"
+ },
+ "0x005B93C0": {
+  "name": "StillScreenWipe::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00835470 slot 5"
+ },
+ "0x005B93D0": {
+  "name": "StillScreenWipe::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00835470 slot 0"
+ },
+ "0x005B9410": {
+  "name": "CrossFade::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x0083548C slot 5"
+ },
+ "0x005B9420": {
+  "name": "CrossFade::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x0083548C slot 0"
+ },
+ "0x005B9460": {
+  "name": "BlackCrossFade::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008354A8 slot 5"
+ },
+ "0x005B9470": {
+  "name": "BlackCrossFade::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008354A8 slot 0"
+ },
+ "0x005B94B0": {
+  "name": "SpinWipe::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008354C4 slot 5"
+ },
+ "0x005B94C0": {
+  "name": "SpinWipe::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008354C4 slot 0"
+ },
+ "0x005B9500": {
+  "name": "StillScreen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008354E0 slot 5"
+ },
+ "0x005B9510": {
+  "name": "StillScreen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008354E0 slot 0"
+ },
+ "0x005CD000": {
+  "name": "name",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00934FC8"
+ },
+ "0x005CD0F0": {
+  "name": "scene",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00934FF8"
+ },
+ "0x005CD1F0": {
+  "name": "ref_obj",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00935008"
+ },
+ "0x005CD230": {
+  "name": "glow_obj",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00935010"
+ },
+ "0x005CD290": {
+  "name": "ref_glow_obj",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00935018"
+ },
+ "0x005CD2D0": {
+  "name": "shadow_obj",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00935020"
+ },
+ "0x005CD310": {
+  "name": "debris_shoot",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00935028"
+ },
+ "0x005CD410": {
+  "name": "part_hit",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00935048"
+ },
+ "0x005CD450": {
+  "name": "sfx_shoot",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00935058"
+ },
+ "0x005CD480": {
+  "name": "sfx_hit",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00935060"
+ },
+ "0x005CEEF0": {
+  "name": "BoltTypes_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'bolttype_start'"
+ },
+ "0x005E83E0": {
+  "name": "Areas_ConfigureList",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "20 literal(s): 'area_start'"
+ },
+ "0x005E91A0": {
+  "name": "Area_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "4 literal(s): 'all_together'"
+ },
+ "0x005EA1C0": {
+  "name": "Area_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "6 literal(s): 'freeplay_coins'"
+ },
+ "0x005EFDC0": {
+  "name": "Levels_ConfigureList",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "10 literal(s): 'level_start'"
+ },
+ "0x005F05C0": {
+  "name": "LevelConfig_BeforeLoad",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'levelbeforeload'"
+ },
+ "0x005F0790": {
+  "name": "farclip_hack",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009362D8"
+ },
+ "0x005F0EB0": {
+  "name": "cam_pullback_dist",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009363E8"
+ },
+ "0x005F0F00": {
+  "name": "cam_lateral_dist",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009363F0"
+ },
+ "0x005F0F50": {
+  "name": "cam_look_rot_mul",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009363F8"
+ },
+ "0x005F1020": {
+  "name": "music",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00936428"
+ },
+ "0x005F10A0": {
+  "name": "music_other",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00936430"
+ },
+ "0x005F1120": {
+  "name": "sfx_ambient",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00936438"
+ },
+ "0x005F1150": {
+  "name": "conveyor",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00936440"
+ },
+ "0x005F11F0": {
+  "name": "LevelConfig_AfterLoad",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'levelafterload'"
+ },
+ "0x005F1280": {
+  "name": "LevelSplines_InitForGame",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'start_cam'"
+ },
+ "0x005F1310": {
+  "name": "LevelSplines_InitForLevel",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'shop_start'"
+ },
+ "0x005F16A0": {
+  "name": "LevelObjects_InitForLevel",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'power_up'"
+ },
+ "0x005F3370": {
+  "name": "Customiser_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "5 literal(s): 'not_demo'"
+ },
+ "0x005F4450": {
+  "name": "Customiser_LoadAll",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'chars\\\\weirdo\\\\all_textures.fpk'"
+ },
+ "0x005F5F80": {
+  "name": "CustomiserMenu_Update",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'menuBack'"
+ },
+ "0x005F66F0": {
+  "name": "cut_scene",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00936878"
+ },
+ "0x005F6850": {
+  "name": "Doors_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'door_start'"
+ },
+ "0x005FAB90": {
+  "name": "CutScenes_ConfigureList",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'filename'"
+ },
+ "0x005FB530": {
+  "name": "goto_level",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00936E58"
+ },
+ "0x005FB600": {
+  "name": "next_cut_scene",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00936E60"
+ },
+ "0x00601DD0": {
+  "name": "RedirectTextFile",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'txt_file'"
+ },
+ "0x006020E0": {
+  "name": "fixed_layers",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009373A0"
+ },
+ "0x00602130": {
+  "name": "crowd_character",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009373A8"
+ },
+ "0x00602180": {
+  "name": "hair_layer_index",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937388"
+ },
+ "0x006021B0": {
+  "name": "hat_layer_index",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937398"
+ },
+ "0x006021E0": {
+  "name": "cape_layer_index",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937390"
+ },
+ "0x00602210": {
+  "name": "hair_layer",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937370"
+ },
+ "0x00602250": {
+  "name": "cape_layer",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937378"
+ },
+ "0x00602290": {
+  "name": "hat_layer",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937380"
+ },
+ "0x006025B0": {
+  "name": "bsa_default",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009373E0"
+ },
+ "0x00602650": {
+  "name": "CC_anim_start",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "26 literal(s): 'bits_off'"
+ },
+ "0x006031B0": {
+  "name": "anim_start",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009373E8"
+ },
+ "0x00604100": {
+  "name": "collision_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009373F8"
+ },
+ "0x00604180": {
+  "name": "weapon_locator_2",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937410"
+ },
+ "0x006041C0": {
+  "name": "weapon_locator_3",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937418"
+ },
+ "0x00604200": {
+  "name": "weapon_locator_4",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937420"
+ },
+ "0x00604280": {
+  "name": "weapon_shoot_locator_2",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937438"
+ },
+ "0x006042C0": {
+  "name": "weapon_shoot_locator_3",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937440"
+ },
+ "0x00604300": {
+  "name": "weapon_shoot_locator_4",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937448"
+ },
+ "0x00604340": {
+  "name": "shield_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937450"
+ },
+ "0x00604380": {
+  "name": "throw_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937458"
+ },
+ "0x006043C0": {
+  "name": "place_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937460"
+ },
+ "0x00604470": {
+  "name": "extra_character_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937478"
+ },
+ "0x006044B0": {
+  "name": "charplatform_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937480"
+ },
+ "0x006044F0": {
+  "name": "tether_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937488"
+ },
+ "0x00604570": {
+  "name": "pivot_locator_2",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009374A0"
+ },
+ "0x006045B0": {
+  "name": "ride_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009374A8"
+ },
+ "0x006045F0": {
+  "name": "poo_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009374B0"
+ },
+ "0x00604630": {
+  "name": "head_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009374B8"
+ },
+ "0x00604670": {
+  "name": "rocket_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009374C0"
+ },
+ "0x006046B0": {
+  "name": "thingy_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009374C8"
+ },
+ "0x006046F0": {
+  "name": "helmet_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009374D0"
+ },
+ "0x00604730": {
+  "name": "hat_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009374D8"
+ },
+ "0x006049E0": {
+  "name": "headlight_locator_2",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937530"
+ },
+ "0x00604A20": {
+  "name": "headlight_colour",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937538"
+ },
+ "0x00604A60": {
+  "name": "headlight_angle",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937540"
+ },
+ "0x00604AB0": {
+  "name": "headlight_xang",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937548"
+ },
+ "0x00604B50": {
+  "name": "define_locator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937560"
+ },
+ "0x00604BD0": {
+  "name": "head_joint",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937568"
+ },
+ "0x00604C10": {
+  "name": "cloak_joint",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937570"
+ },
+ "0x00604C50": {
+  "name": "cloak_joint2",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937578"
+ },
+ "0x00604D80": {
+  "name": "sfx_engine",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937598"
+ },
+ "0x006052B0": {
+  "name": "turn_rate_2",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937670"
+ },
+ "0x006059D0": {
+  "name": "weapon",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937770"
+ },
+ "0x006063A0": {
+  "name": "minikit_noscenewhenplayable",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009378F8"
+ },
+ "0x006063F0": {
+  "name": "lift_hover",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937900"
+ },
+ "0x00606440": {
+  "name": "flatten_die",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937728"
+ },
+ "0x00606490": {
+  "name": "can_blend_to_shoot",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937730"
+ },
+ "0x006064E0": {
+  "name": "supercounter_character",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937738"
+ },
+ "0x00606530": {
+  "name": "critter",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937740"
+ },
+ "0x00606580": {
+  "name": "can_poo",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937890"
+ },
+ "0x006065D0": {
+  "name": "can_super_carry",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937898"
+ },
+ "0x00606620": {
+  "name": "can_zap",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009378A0"
+ },
+ "0x00606670": {
+  "name": "put_weapon_away_on_shoot",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009378A8"
+ },
+ "0x006066C0": {
+  "name": "always_stop_to_shoot",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009378B0"
+ },
+ "0x00606710": {
+  "name": "second_shot_only",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009378B8"
+ },
+ "0x00606760": {
+  "name": "no_start_punch_sfx",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009378C0"
+ },
+ "0x006067B0": {
+  "name": "single_jump_slam",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009378C8"
+ },
+ "0x00606800": {
+  "name": "dont_draw_rider",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009378D0"
+ },
+ "0x006068A0": {
+  "name": "glide_anytime",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937908"
+ },
+ "0x006068F0": {
+  "name": "can_communicate",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937910"
+ },
+ "0x00606940": {
+  "name": "immune_to_magnets",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937918"
+ },
+ "0x00606990": {
+  "name": "immune_to_forcepush",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937920"
+ },
+ "0x006069E0": {
+  "name": "cannot_kill",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937928"
+ },
+ "0x00606A30": {
+  "name": "wait_for_weapon_in_out",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937930"
+ },
+ "0x00606A80": {
+  "name": "double_jump_hover",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937938"
+ },
+ "0x00606AD0": {
+  "name": "no_category",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937940"
+ },
+ "0x00606B20": {
+  "name": "no_force",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937948"
+ },
+ "0x00606B70": {
+  "name": "white_flash",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937950"
+ },
+ "0x00606BC0": {
+  "name": "buck_rider",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937958"
+ },
+ "0x00606C10": {
+  "name": "die_usecurrentlayers",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937960"
+ },
+ "0x00606C60": {
+  "name": "no_weapon_draw",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937968"
+ },
+ "0x00606CB0": {
+  "name": "no_jump_fire",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937970"
+ },
+ "0x00606D00": {
+  "name": "hover_over_mud",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937978"
+ },
+ "0x00606D50": {
+  "name": "toggle_if_not_in_collection",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937980"
+ },
+ "0x00606DA0": {
+  "name": "toggle_if_in_minikit_bonus",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937988"
+ },
+ "0x00606DF0": {
+  "name": "deflect_bolts_in_minikit_bonus",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937990"
+ },
+ "0x00606E40": {
+  "name": "has_grapple",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937998"
+ },
+ "0x00606E90": {
+  "name": "hover_wings",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009379A0"
+ },
+ "0x00606EE0": {
+  "name": "has_whip",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009379A8"
+ },
+ "0x00606F30": {
+  "name": "can_scream",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009379B0"
+ },
+ "0x00607790": {
+  "name": "has_scene_element",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937A78"
+ },
+ "0x006077E0": {
+  "name": "dont_turn",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937A80"
+ },
+ "0x00607830": {
+  "name": "wheelie",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937A88"
+ },
+ "0x00607880": {
+  "name": "no_jump",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937A90"
+ },
+ "0x006078D0": {
+  "name": "no_shoot",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937A98"
+ },
+ "0x00607920": {
+  "name": "blobshadow_size",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937AA0"
+ },
+ "0x00607980": {
+  "name": "weight",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937AB0"
+ },
+ "0x006079C0": {
+  "name": "stun_die_chance",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937AB8"
+ },
+ "0x00607A20": {
+  "name": "hover_time",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937AC8"
+ },
+ "0x00607BB0": {
+  "name": "timebaseupdate1",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937AF8"
+ },
+ "0x00607BC0": {
+  "name": "timebaseupdate2",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B00"
+ },
+ "0x00607BD0": {
+  "name": "timebaseupdate3",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B08"
+ },
+ "0x00607BE0": {
+  "name": "timebaseupdate4",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B10"
+ },
+ "0x00607BF0": {
+  "name": "rider_action",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B18"
+ },
+ "0x00607C20": {
+  "name": "phobia",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B20"
+ },
+ "0x00607D00": {
+  "name": "needs_paddling",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B50"
+ },
+ "0x00607D50": {
+  "name": "mind_control",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B58"
+ },
+ "0x00607DA0": {
+  "name": "grabber_control",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B60"
+ },
+ "0x00607DF0": {
+  "name": "float_high",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B68"
+ },
+ "0x00607E40": {
+  "name": "use_turnmul",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B70"
+ },
+ "0x00607E90": {
+  "name": "dont_trigger_vehicle_proximity",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B78"
+ },
+ "0x00607EE0": {
+  "name": "wall_shuffle_face_wall",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937B80"
+ },
+ "0x00608350": {
+  "name": "move_on_rails",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937BA0"
+ },
+ "0x006083A0": {
+  "name": "deactivate_backtonormal",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00937BB0"
+ },
+ "0x006090A0": {
+  "name": "CharConfig_ConfigureAll",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'chars\\\\charstxt.fpk'"
+ },
+ "0x0060B540": {
+  "name": "SpecialMoves_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "9 literal(s): 'can_always_do'"
+ },
+ "0x0060E6B0": {
+  "name": "CharPlatforms_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'char_platform'"
+ },
+ "0x00614EA0": {
+  "name": "Collection_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "6 literal(s): 'cheat_code'"
+ },
+ "0x00617DE0": {
+  "name": "SpecialMiniKits_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "8 literal(s): 'orientate'"
+ },
+ "0x00618D90": {
+  "name": "InitSnakes",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'Snake_bit_3'"
+ },
+ "0x0061E150": {
+  "name": "MiniKit_InitPieces",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): '%s_shadow'"
+ },
+ "0x0061F910": {
+  "name": "Episodes_ConfigureList",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'episode_start'"
+ },
+ "0x006284B0": {
+  "name": "Faders_Configure",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'while_animating'"
+ },
+ "0x00628BA0": {
+  "name": "min_rot",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00939318"
+ },
+ "0x00628C00": {
+  "name": "max_rot",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00939320"
+ },
+ "0x00628C60": {
+  "name": "start_ang",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00939328"
+ },
+ "0x00628ED0": {
+  "name": "Grabber_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "4 literal(s): 'grabber_shadow'"
+ },
+ "0x0062A1B0": {
+  "name": "Grabber_Reset",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'pad_drop'"
+ },
+ "0x0062B900": {
+  "name": "texture_name",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00939450"
+ },
+ "0x0062B950": {
+  "name": "start_colour",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00939460"
+ },
+ "0x0062B9A0": {
+  "name": "end_colour",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00939468"
+ },
+ "0x0062BA50": {
+  "name": "RippleEffects_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'rippleeffects_start'"
+ },
+ "0x0062BC00": {
+  "name": "LookupRippleEffectIndex",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'forcefield'"
+ },
+ "0x0062C410": {
+  "name": "effect_type",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00939458"
+ },
+ "0x0062C490": {
+  "name": "Pulses_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "13 literal(s): 'start_wait'"
+ },
+ "0x0062D1C0": {
+  "name": "TrafficAnimSys_Configure",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'traffic_start'"
+ },
+ "0x00646940": {
+  "name": "zoomplaybackminmax",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093A448"
+ },
+ "0x00646980": {
+  "name": "zoominteractiveminmax",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093A450"
+ },
+ "0x00646A70": {
+  "name": "colour_nextlocationnode",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093A470"
+ },
+ "0x00646AE0": {
+  "name": "colour_footsteps",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093A478"
+ },
+ "0x00648470": {
+  "name": "location",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093A480"
+ },
+ "0x0064BCA0": {
+  "name": "Customiser_FindSetFromNamePart",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'underpants'"
+ },
+ "0x0064CBF0": {
+  "name": "CustomiserMenu_Update",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'ToggleChar'"
+ },
+ "0x0064D660": {
+  "name": "Fade::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835438 slot 1"
+ },
+ "0x0064D670": {
+  "name": "Fade::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835438 slot 2"
+ },
+ "0x0064D6A0": {
+  "name": "Fade::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835438 slot 3"
+ },
+ "0x0064D6B0": {
+  "name": "Fade::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835438 slot 4"
+ },
+ "0x0064D740": {
+  "name": "BlackWipe::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835454 slot 1"
+ },
+ "0x0064D750": {
+  "name": "BlackWipe::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835454 slot 2"
+ },
+ "0x0064D7B0": {
+  "name": "BlackWipe::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835454 slot 3"
+ },
+ "0x0064D7C0": {
+  "name": "BlackWipe::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835454 slot 4"
+ },
+ "0x0064D7D0": {
+  "name": "StillScreenWipe::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835470 slot 1"
+ },
+ "0x0064D7E0": {
+  "name": "StillScreenWipe::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835470 slot 2"
+ },
+ "0x0064D880": {
+  "name": "StillScreenWipe::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835470 slot 3"
+ },
+ "0x0064D8B0": {
+  "name": "StillScreenWipe::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00835470 slot 4"
+ },
+ "0x0064D8E0": {
+  "name": "CrossFade::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083548C slot 1"
+ },
+ "0x0064D8F0": {
+  "name": "CrossFade::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083548C slot 2"
+ },
+ "0x0064D990": {
+  "name": "CrossFade::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083548C slot 3"
+ },
+ "0x0064D9C0": {
+  "name": "CrossFade::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083548C slot 4"
+ },
+ "0x0064DA30": {
+  "name": "BlackCrossFade::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354A8 slot 1"
+ },
+ "0x0064DA40": {
+  "name": "BlackCrossFade::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354A8 slot 2"
+ },
+ "0x0064DAC0": {
+  "name": "BlackCrossFade::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354A8 slot 3"
+ },
+ "0x0064DAF0": {
+  "name": "BlackCrossFade::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354A8 slot 4"
+ },
+ "0x0064DB90": {
+  "name": "StillScreen::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354E0 slot 1"
+ },
+ "0x0064DBA0": {
+  "name": "StillScreen::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354E0 slot 2"
+ },
+ "0x0064DC10": {
+  "name": "StillScreen::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354E0 slot 3"
+ },
+ "0x0064DC30": {
+  "name": "StillScreen::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354E0 slot 4"
+ },
+ "0x0064DFA0": {
+  "name": "SpinWipe::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354C4 slot 1"
+ },
+ "0x0064DFB0": {
+  "name": "SpinWipe::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354C4 slot 2"
+ },
+ "0x0064E060": {
+  "name": "SpinWipe::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354C4 slot 3"
+ },
+ "0x0064E090": {
+  "name": "SpinWipe::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008354C4 slot 4"
+ },
+ "0x0064E0E0": {
+  "name": "GameThingManager::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0064E140": {
+  "name": "GameThingManager::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0064E1C0": {
+  "name": "GameThingManager::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x0083960C slot 0"
+ },
+ "0x00657780": {
+  "name": "mid_force",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093B5C0"
+ },
+ "0x00657850": {
+  "name": "cam_look_ratio",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093B5E0"
+ },
+ "0x006578B0": {
+  "name": "cam_look_ratio_y",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093B5E8"
+ },
+ "0x00657900": {
+  "name": "campos_seek",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093B5F0"
+ },
+ "0x00657940": {
+  "name": "camang_seek",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093B5F8"
+ },
+ "0x006579A0": {
+  "name": "cam_lateral_ratio",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093B608"
+ },
+ "0x006579F0": {
+  "name": "cam_offset",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093B618"
+ },
+ "0x00657AD0": {
+  "name": "offset_blend_ratio",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093B648"
+ },
+ "0x00657D90": {
+  "name": "ignore_socks",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0093B688"
+ },
+ "0x0066BE90": {
+  "name": "ShaderBuilderGen::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0066BF50": {
+  "name": "ShaderBuilderGen::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839DFC slot 0"
+ },
+ "0x0066BF70": {
+  "name": "ShaderBuilderGen::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839DFC slot 1"
+ },
+ "0x0066BF90": {
+  "name": "ShaderBuilderGen::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839DFC slot 2"
+ },
+ "0x0066BFB0": {
+  "name": "ShaderBuilderGen::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839DFC slot 3"
+ },
+ "0x0066BFD0": {
+  "name": "ShaderBuilderGen::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839DFC slot 4"
+ },
+ "0x0066C000": {
+  "name": "ShaderBuilderGen::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839DFC slot 5"
+ },
+ "0x0066C1E0": {
+  "name": "ShaderManagerHLSL::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839EB8 slot 2"
+ },
+ "0x0066C570": {
+  "name": "ShaderManagerHLSL::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839EB8 slot 1"
+ },
+ "0x0066C720": {
+  "name": "ShaderManagerTemplate<NuShaderObject>::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0066C740": {
+  "name": "ShaderManagerTemplate<NuShaderObject>::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839E3C slot 1"
+ },
+ "0x0066C750": {
+  "name": "ShaderManagerTemplate<NuShaderObject>::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839E3C slot 2"
+ },
+ "0x0066C760": {
+  "name": "ShaderManagerTemplate<NuShaderObject>::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839E3C slot 0"
+ },
+ "0x0066C7D0": {
+  "name": "HLSLShaderBuilder::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839E1C slot 0"
+ },
+ "0x0066D070": {
+  "name": "ShaderManagerHLSL::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839EB8 slot 0"
+ },
+ "0x0066F230": {
+  "name": "NuShaderObjectBindAttributeLocationsGLSL",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "6 literal(s): 'BLENDWEIGHT0'"
+ },
+ "0x00671B40": {
+  "name": "ShaderBuilderGen::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006725E0": {
+  "name": "ShaderBuilderGen::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839DFC slot 6"
+ },
+ "0x00673D10": {
+  "name": "HLSLShaderBuilder::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839E1C slot 5"
+ },
+ "0x00673D50": {
+  "name": "HLSLShaderBuilder::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00839E1C slot 6"
+ },
+ "0x00674900": {
+  "name": "std::bad_alloc::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083B72C slot 0"
+ },
+ "0x00675380": {
+  "name": "std::bad_alloc::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006753E0": {
+  "name": "std::bad_alloc::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00677590": {
+  "name": "std::logic_error::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006775E0": {
+  "name": "std::logic_error::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083B9C4 slot 1"
+ },
+ "0x006775F0": {
+  "name": "std::logic_error::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083B9C4 slot 0"
+ },
+ "0x00677A20": {
+  "name": "std::logic_error::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00677AB0": {
+  "name": "std::logic_error::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00677AF0": {
+  "name": "std::length_error::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0083B9D0 slot 0"
+ },
+ "0x00677C00": {
+  "name": "std::length_error::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00677C80": {
+  "name": "std::logic_error::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00678DF0": {
+  "name": "Condition_NearestPlayerToLocator",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'SetState'"
+ },
+ "0x00679A30": {
+  "name": "CONST",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F1E0"
+ },
+ "0x0067AD90": {
+  "name": "NearestPlayerRange",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F2A8"
+ },
+ "0x0067AF30": {
+  "name": "InLevelNode",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F2C0"
+ },
+ "0x0067AFE0": {
+  "name": "EitherPlayerInLevelNode",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F2D8"
+ },
+ "0x0067C020": {
+  "name": "Action_FaceOpponent",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'faceoffset'"
+ },
+ "0x0067CB70": {
+  "name": "OverrideAnimation",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F660"
+ },
+ "0x0067D0F0": {
+  "name": "Else",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F714"
+ },
+ "0x0067D130": {
+  "name": "EndIf",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F744"
+ },
+ "0x00689E50": {
+  "name": "CONDITIONS",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F1A8"
+ },
+ "0x0068A0B0": {
+  "name": "ACTIONS",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F1B0"
+ },
+ "0x0068A510": {
+  "name": "CONDITIONMACRO",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F1E8"
+ },
+ "0x0068A5E0": {
+  "name": "ACTIONMACRO",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F1F0"
+ },
+ "0x0068A720": {
+  "name": "REFERENCESCRIPT",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F1B8"
+ },
+ "0x0068AB90": {
+  "name": "AIScriptLoadAllPakFile",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): '%s\\\\script.txt'"
+ },
+ "0x0068AE10": {
+  "name": "AIScriptLoadAll",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): '%s\\\\ai.pak'"
+ },
+ "0x0068BC10": {
+  "name": "NotifyStateChange",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F6FC"
+ },
+ "0x0068BCD0": {
+  "name": "OrIf",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F738"
+ },
+ "0x0068BD30": {
+  "name": "AndIf",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F72C"
+ },
+ "0x0068BD90": {
+  "name": "ElseIf",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F720"
+ },
+ "0x006914B0": {
+  "name": "Circle",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F4E0"
+ },
+ "0x006917D0": {
+  "name": "CirclePlayer",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F4F8"
+ },
+ "0x00691A30": {
+  "name": "CircleOpponent",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F4EC"
+ },
+ "0x00692250": {
+  "name": "GoToNode",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F600"
+ },
+ "0x006929A0": {
+  "name": "GoToLocator",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F624"
+ },
+ "0x00693120": {
+  "name": "FollowPath",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F648"
+ },
+ "0x00693320": {
+  "name": "MoveAwayFromNode",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x0096F654"
+ },
+ "0x006965E0": {
+  "name": "MenuInitialiseEx",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'Menus used: %d'"
+ },
+ "0x00698540": {
+  "name": "MenuLoadTechnicalStrings",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "48 literal(s): 'PC_CONTROLLERREMOVED'"
+ },
+ "0x00699220": {
+  "name": "TextDecodeCodeword",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "3 literal(s): 'padright'"
+ },
+ "0x006ADBE0": {
+  "name": "ImplodeMakeTable",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'Bad table'"
+ },
+ "0x006B0ED0": {
+  "name": "NuFileExtInit",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "6 literal(s): '_ps3.tex'"
+ },
+ "0x006BB270": {
+  "name": "NuPostFilterGen::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869174 slot 3"
+ },
+ "0x006BB280": {
+  "name": "NuPostFilterGen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869174 slot 4"
+ },
+ "0x006BB290": {
+  "name": "NuPostFilterGen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869174 slot 5"
+ },
+ "0x006BB2A0": {
+  "name": "NuPostFilterGen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869174 slot 0"
+ },
+ "0x006BB2C0": {
+  "name": "NuPostFilterGen::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869174 slot 6"
+ },
+ "0x006BB2D0": {
+  "name": "NuPostFilterGen::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869174 slot 7"
+ },
+ "0x006BB2E0": {
+  "name": "NuPostFilterGen::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869174 slot 8"
+ },
+ "0x006BF070": {
+  "name": "NuMainFilter::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086947C slot 2"
+ },
+ "0x006BF300": {
+  "name": "NuDeferredFilter::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D60 slot 4"
+ },
+ "0x006BF780": {
+  "name": "NuSpeedBlurFilter::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D10 slot 3"
+ },
+ "0x006BF790": {
+  "name": "NuSpeedBlurFilter::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D10 slot 4"
+ },
+ "0x006BF7C0": {
+  "name": "NuProcessColourFilter::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086943C slot 3"
+ },
+ "0x006BF7D0": {
+  "name": "NuProcessColourFilter::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086943C slot 4"
+ },
+ "0x006BF7F0": {
+  "name": "NuEdgeAAFilter::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D38 slot 3"
+ },
+ "0x006BF820": {
+  "name": "NuEdgeAAFilter::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D38 slot 4"
+ },
+ "0x006C9E50": {
+  "name": "std::bad_alloc::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006C9EB0": {
+  "name": "std::bad_alloc::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006CA650": {
+  "name": "NuPostFilterGen::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006CA660": {
+  "name": "NuMainFilter::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086947C slot 3"
+ },
+ "0x006CA6A0": {
+  "name": "NuMainFilter::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086947C slot 4"
+ },
+ "0x006CA760": {
+  "name": "NuProcessColourFilter::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006CA790": {
+  "name": "NuProcessColourFilter::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x0086943C slot 0"
+ },
+ "0x006CA7B0": {
+  "name": "NuEdgeAAFilter::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D38 slot 5"
+ },
+ "0x006CF750": {
+  "name": "NuMainFilter::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006CF7C0": {
+  "name": "NuMainFilterGen::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869CC0 slot 8"
+ },
+ "0x006CF7D0": {
+  "name": "NuPostFilterGen::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006CFCD0": {
+  "name": "NuDeferredFilter::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D60 slot 3"
+ },
+ "0x006CFF10": {
+  "name": "NuMotionAccumFilter::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869CE8 slot 3"
+ },
+ "0x006CFF80": {
+  "name": "NuMotionAccumFilter::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869CE8 slot 5"
+ },
+ "0x006D04C0": {
+  "name": "NuSpeedBlurFilter::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D10 slot 5"
+ },
+ "0x006D0760": {
+  "name": "NuProcessColourFilter::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086943C slot 5"
+ },
+ "0x006D2200": {
+  "name": "NuMainFilter::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086947C slot 0"
+ },
+ "0x006D2220": {
+  "name": "NuMainFilter::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086947C slot 5"
+ },
+ "0x006D2240": {
+  "name": "NuDeferredFilter::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D60 slot 9"
+ },
+ "0x006D22A0": {
+  "name": "renderThread_processRenderScenes",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'CPU_QUEUE_DRAW'"
+ },
+ "0x006D31B0": {
+  "name": "std::length_error::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006D3230": {
+  "name": "std::length_error::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006D3D60": {
+  "name": "NuMainFilter::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086947C slot 1"
+ },
+ "0x006D4050": {
+  "name": "NuDeferredFilter::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D60 slot 1"
+ },
+ "0x006D4370": {
+  "name": "NuMotionAccumFilter::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869CE8 slot 1"
+ },
+ "0x006D43A0": {
+  "name": "NuSpeedBlurFilter::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D10 slot 1"
+ },
+ "0x006D4400": {
+  "name": "NuProcessColourFilter::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086943C slot 1"
+ },
+ "0x006D4460": {
+  "name": "NuEdgeAAFilter::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869D38 slot 1"
+ },
+ "0x006D5E80": {
+  "name": "NuPostFilter::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008696D0 slot 0"
+ },
+ "0x006D5EA0": {
+  "name": "NuMainFilterGen::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869CC0 slot 3"
+ },
+ "0x006D5F90": {
+  "name": "NuMainFilterGen::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869CC0 slot 4"
+ },
+ "0x006D5FC0": {
+  "name": "NuMainFilterGen::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869CC0 slot 6"
+ },
+ "0x006D6980": {
+  "name": "NuPostFilterGen::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006D8AD0": {
+  "name": "NuPostFilterGen::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869174 slot 1"
+ },
+ "0x006D8AE0": {
+  "name": "NuPostFilterGen::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869174 slot 2"
+ },
+ "0x006D8AF0": {
+  "name": "NuCopyFilter::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008696F8 slot 1"
+ },
+ "0x006D8B00": {
+  "name": "NuCopyFilter::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008696F8 slot 2"
+ },
+ "0x006D8B10": {
+  "name": "NuCopyFilter::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008696F8 slot 9"
+ },
+ "0x006D8B20": {
+  "name": "NuCopyFilter::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008696F8 slot 6"
+ },
+ "0x006D8B60": {
+  "name": "NuMotionAccumFilterGen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869738 slot 0"
+ },
+ "0x006D8B80": {
+  "name": "NuMotionAccumFilterGen::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869738 slot 1"
+ },
+ "0x006D8B90": {
+  "name": "NuMotionAccumFilterGen::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869738 slot 2"
+ },
+ "0x006D8BA0": {
+  "name": "NuMotionAccumFilterGen::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869738 slot 3"
+ },
+ "0x006D8BD0": {
+  "name": "NuMotionAccumFilterGen::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869738 slot 4"
+ },
+ "0x006D8BE0": {
+  "name": "NuMotionAccumFilterGen::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869738 slot 5"
+ },
+ "0x006D9430": {
+  "name": "NuSpeedBlurFilterGen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869760 slot 0"
+ },
+ "0x006D9450": {
+  "name": "NuSpeedBlurFilterGen::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869760 slot 1"
+ },
+ "0x006D9460": {
+  "name": "NuSpeedBlurFilterGen::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869760 slot 2"
+ },
+ "0x006D9470": {
+  "name": "NuSpeedBlurFilterGen::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869760 slot 3"
+ },
+ "0x006D94C0": {
+  "name": "NuSpeedBlurFilterGen::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869760 slot 4"
+ },
+ "0x006D9670": {
+  "name": "NuProcessColourFilterGen::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006D9690": {
+  "name": "NuProcessColourFilterGen::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869788 slot 1"
+ },
+ "0x006D96A0": {
+  "name": "NuProcessColourFilterGen::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869788 slot 2"
+ },
+ "0x006D9810": {
+  "name": "NuProcessColourFilterGen::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869788 slot 3"
+ },
+ "0x006D9820": {
+  "name": "NuProcessColourFilterGen::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869788 slot 4"
+ },
+ "0x006D9830": {
+  "name": "NuProcessColourFilterGen::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869788 slot 5"
+ },
+ "0x006D99A0": {
+  "name": "NuEdgeAAFilterGen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869800 slot 0"
+ },
+ "0x006D99C0": {
+  "name": "NuEdgeAAFilterGen::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869800 slot 1"
+ },
+ "0x006D99D0": {
+  "name": "NuEdgeAAFilterGen::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869800 slot 2"
+ },
+ "0x006D99E0": {
+  "name": "NuEdgeAAFilterGen::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869800 slot 3"
+ },
+ "0x006D99F0": {
+  "name": "NuEdgeAAFilterGen::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869800 slot 4"
+ },
+ "0x006D9A00": {
+  "name": "NuEdgeAAFilterGen::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869800 slot 5"
+ },
+ "0x006DF8D0": {
+  "name": "NuDeferredFilterGen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869894 slot 8"
+ },
+ "0x006DF8F0": {
+  "name": "NuDeferredFilterGen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869894 slot 0"
+ },
+ "0x006DF910": {
+  "name": "NuDeferredFilterGen::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869894 slot 1"
+ },
+ "0x006DF920": {
+  "name": "NuDeferredFilterGen::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869894 slot 2"
+ },
+ "0x006DF930": {
+  "name": "NuDeferredFilterGen::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869894 slot 3"
+ },
+ "0x006DFA60": {
+  "name": "NuDeferredFilterGen::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869894 slot 4"
+ },
+ "0x006DFAB0": {
+  "name": "NuDeferredFilterGen::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869894 slot 7"
+ },
+ "0x006E01F0": {
+  "name": "NuDeferredFilterGen::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869894 slot 9"
+ },
+ "0x006E93F0": {
+  "name": "texadjr",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00978280"
+ },
+ "0x006E94B0": {
+  "name": "wait",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00978288"
+ },
+ "0x006E9660": {
+  "name": "label",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009782A8"
+ },
+ "0x006E9690": {
+  "name": "xdef",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009782F8"
+ },
+ "0x006E96E0": {
+  "name": "goto",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009782B0"
+ },
+ "0x006E9740": {
+  "name": "xref",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x00978300"
+ },
+ "0x006E9840": {
+  "name": "gosub",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009782C0"
+ },
+ "0x006E9960": {
+  "name": "untiltex",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009782E0"
+ },
+ "0x006E99F0": {
+  "name": "scriptname",
+  "source": "string",
+  "confidence": "medium",
+  "evidence": "table record 0x009782F0"
+ },
+ "0x006FE980": {
+  "name": "NuMainFilterGen::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006FE9F0": {
+  "name": "NuMainFilterGen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869CC0 slot 0"
+ },
+ "0x006FEA10": {
+  "name": "NuMainFilterGen::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869CC0 slot 1"
+ },
+ "0x006FEA20": {
+  "name": "NuMainFilterGen::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869CC0 slot 2"
+ },
+ "0x006FEA30": {
+  "name": "NuMainFilterGen::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869CC0 slot 5"
+ },
+ "0x006FF030": {
+  "name": "NuMotionFilterGen::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869E34 slot 2"
+ },
+ "0x006FF080": {
+  "name": "NuMotionFilterGen::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869E34 slot 5"
+ },
+ "0x006FF3E0": {
+  "name": "NuEdgeAAFilter::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006FF440": {
+  "name": "NuPostFilterGen::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x006FF4C0": {
+  "name": "NuMotionAccumFilter::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869CE8 slot 0"
+ },
+ "0x006FF4E0": {
+  "name": "NuSpeedBlurFilter::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869D10 slot 0"
+ },
+ "0x006FF500": {
+  "name": "NuEdgeAAFilter::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869D38 slot 0"
+ },
+ "0x006FF520": {
+  "name": "NuDeferredFilter::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869D60 slot 0"
+ },
+ "0x006FF540": {
+  "name": "NuCopyFilter::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008696F8 slot 0"
+ },
+ "0x006FF900": {
+  "name": "NuSpeedBlurFilterGen::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869760 slot 5"
+ },
+ "0x006FFB00": {
+  "name": "NuProcessColourFilterGen::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x00869788 slot 0"
+ },
+ "0x0070AC50": {
+  "name": "NuPostFilterGen::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0070ACB0": {
+  "name": "NuMotionFilterGen::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869E34 slot 1"
+ },
+ "0x0070E4F0": {
+  "name": "NuMotionFilterGen::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869E34 slot 0"
+ },
+ "0x0070E950": {
+  "name": "NuMotionFilter::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869EC4 slot 0"
+ },
+ "0x00711770": {
+  "name": "NuDeferredFilterGen::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00869894 slot 5"
+ },
+ "0x007126AB": {
+  "name": "__cfltcvt_init",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071271B": {
+  "name": "__fpmath",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00712739": {
+  "name": "@__security_check_cookie@4",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007128E3": {
+  "name": "__onexit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071291F": {
+  "name": "_atexit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00712940": {
+  "name": "_memset",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x007129C0": {
+  "name": "__allshl",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x007129DF": {
+  "name": "_sprintf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00712A74": {
+  "name": "_sprintf_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00712A90": {
+  "name": "__sprintf_s_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00712AAD": {
+  "name": "__snprintf_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00712ACC": {
+  "name": "__snprintf_s_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00712B08": {
+  "name": "__snprintf_c_l",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 4 candidate names"
+ },
+ "0x00712CA0": {
+  "name": "__chkstk",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00712CD0": {
+  "name": "_memcpy",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00713067": {
+  "name": "_fast_error_exit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071308B": {
+  "name": "_check_managed_app",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007130CC": {
+  "name": "___tmainCRTStartup",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007132AC": {
+  "name": "WinMainCRTStartup",
+  "source": "startup-trace",
+  "confidence": "medium",
+  "evidence": "docs/STARTUP_REQS.md"
+ },
+ "0x00713386": {
+  "name": "_fclose",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00713623": {
+  "name": "_fread_s",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2008 Release"
+ },
+ "0x007136D4": {
+  "name": "__ftell_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071386C": {
+  "name": "_ftell",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007138DA": {
+  "name": "__fseek_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00713961": {
+  "name": "_fseek",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00713B45": {
+  "name": "_fwrite",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2008 Release"
+ },
+ "0x00713BC7": {
+  "name": "_vscan_fn",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00713C35": {
+  "name": "_swscanf",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x00713C54": {
+  "name": "__swscanf_l",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x00713CBA": {
+  "name": "std::bad_alloc::bad_alloc",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00713CD3": {
+  "name": "std::bad_alloc::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00713D3D": {
+  "name": "_JumpToContinuation",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00713D6D": {
+  "name": "_CallMemberFunction0",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00713D74": {
+  "name": "_CallMemberFunction1",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x00713D7B": {
+  "name": "_CallMemberFunction1",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x00713D82": {
+  "name": "_UnwindNestedFrames",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00713DD4": {
+  "name": "___CxxFrameHandler",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 3 candidate names"
+ },
+ "0x00713E0A": {
+  "name": "___CxxFrameHandler",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 3 candidate names"
+ },
+ "0x00713E40": {
+  "name": "___CxxFrameHandler",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 3 candidate names"
+ },
+ "0x00713EC0": {
+  "name": "_CallSETranslator",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00713F95": {
+  "name": "TranslatorGuardHandler",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714032": {
+  "name": "_GetRangeOfTrysToCheck",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007140A5": {
+  "name": "__CreateFrameInfo",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007140CD": {
+  "name": "__IsExceptionObjectToBeDestroyed",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007140EE": {
+  "name": "__FindAndUnlinkFrame",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071413A": {
+  "name": "_CallCatchBlock2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714198": {
+  "name": "_fprintf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714365": {
+  "name": "__fsopen",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714429": {
+  "name": "_fopen",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071448C": {
+  "name": "__amsg_exit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714515": {
+  "name": "__initterm_e",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714535": {
+  "name": "__get_osplatform",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 3 candidate names"
+ },
+ "0x007145E4": {
+  "name": "__get_amblksiz",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 5 candidate names"
+ },
+ "0x007146CA": {
+  "name": "__cinit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071483E": {
+  "name": "_exit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071484F": {
+  "name": "__exit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714860": {
+  "name": "__cexit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071487E": {
+  "name": "__init_pointers",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007148CA": {
+  "name": "__invoke_watson_if_error",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2010 Release"
+ },
+ "0x007149EF": {
+  "name": "__hw_cw",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714B58": {
+  "name": "___hw_cw_sse2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714C42": {
+  "name": "__statusfp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714D08": {
+  "name": "___statusfp_sse2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714F02": {
+  "name": "__statusfp2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00714F5A": {
+  "name": "__clearfp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00715031": {
+  "name": "___control87_2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071533B": {
+  "name": "__control87",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00715CB0": {
+  "name": "_swap",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00715CE0": {
+  "name": "_shortsort",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00715D70": {
+  "name": "_qsort",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716017": {
+  "name": "__vsprintf_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716093": {
+  "name": "_vsprintf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007160AA": {
+  "name": "__vscprintf_helper",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x00716163": {
+  "name": "__initp_misc_winsig",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716217": {
+  "name": "_siglookup",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071624B": {
+  "name": "___get_sigabrt",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007164A7": {
+  "name": "_raise",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716690": {
+  "name": "__except_handler4",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071698F": {
+  "name": "type_info::~type_info",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071699D": {
+  "name": "type_info::`scalar deleting dtor'",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007169D0": {
+  "name": "type_info::operator==",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716A3A": {
+  "name": "_V6_HeapAlloc",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716AFE": {
+  "name": "_malloc",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716BC1": {
+  "name": "_realloc",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716E55": {
+  "name": "_free",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716EF0": {
+  "name": "__alldiv",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00716FA0": {
+  "name": "__allmul",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716FE0": {
+  "name": "__alloca_probe_16",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00716FF6": {
+  "name": "__alloca_probe_8",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0071700C": {
+  "name": "__calloc_impl",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071712A": {
+  "name": "_calloc",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007172A0": {
+  "name": "_memmove",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00717610": {
+  "name": "__allshr",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00717640": {
+  "name": "_memchr",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x007176ED": {
+  "name": "_LocaleUpdate::_LocaleUpdate",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00717788": {
+  "name": "__toupper_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007178A0": {
+  "name": "_toupper",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007178C7": {
+  "name": "__get_sys_err_msg",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007178EA": {
+  "name": "_perror",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00717D3A": {
+  "name": "_ldexp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071817A": {
+  "name": "_frexp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007183B3": {
+  "name": "_rand",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007183D5": {
+  "name": "__copysign",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007183FB": {
+  "name": "__chgsign",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007187C9": {
+  "name": "__isnan",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007187F7": {
+  "name": "__fpclass",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071888B": {
+  "name": "__purecall",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007188E4": {
+  "name": "_printf",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x00718A38": {
+  "name": "`eh vector ctor iterator'",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00718AAF": {
+  "name": "__ArrayUnwind",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00718B0D": {
+  "name": "`eh vector dtor iterator'",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00718BA0": {
+  "name": "_strncpy",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00718CC4": {
+  "name": "_memcpy_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00718D3F": {
+  "name": "_memmove_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00718D9A": {
+  "name": "std::exception::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00718DAB": {
+  "name": "std::exception::exception",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00718DF9": {
+  "name": "std::exception::exception",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00718E11": {
+  "name": "std::exception::exception",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00718E69": {
+  "name": "std::exception::operator=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00718EBF": {
+  "name": "exception::~exception",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00718ED5": {
+  "name": "std::exception::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086A1D4 slot 1"
+ },
+ "0x00718F95": {
+  "name": "std::exception::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086A1D4 slot 0"
+ },
+ "0x00718FB1": {
+  "name": "std::bad_cast::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086A1F4 slot 0"
+ },
+ "0x00718FD3": {
+  "name": "std::bad_typeid::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086A200 slot 0"
+ },
+ "0x00718FF5": {
+  "name": "std::__non_rtti_object::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086A20C slot 0"
+ },
+ "0x00719021": {
+  "name": "__invoke_watson",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719197": {
+  "name": "__CxxThrowException@8",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719240": {
+  "name": "_strrchr",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071926D": {
+  "name": "_vfprintf_helper",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719415": {
+  "name": "__vfprintf_p",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 3 candidate names"
+ },
+ "0x007195A8": {
+  "name": "_fputc",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x00719888": {
+  "name": "__flush",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007198EA": {
+  "name": "__fflush_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071992C": {
+  "name": "_flsall",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719A59": {
+  "name": "__flushall",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719A62": {
+  "name": "__forcdecpt_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719AD3": {
+  "name": "__cropzeros_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719B69": {
+  "name": "__fassign_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719BC0": {
+  "name": "__shift",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719D66": {
+  "name": "__cftoe_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719E34": {
+  "name": "__cftoe",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00719E52": {
+  "name": "__cftoa_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A1C3": {
+  "name": "__cftoa",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A1E1": {
+  "name": "__cftof2_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A2D6": {
+  "name": "__cftof_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A3AA": {
+  "name": "__cftog_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A4A2": {
+  "name": "__cftog",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A4C0": {
+  "name": "__cfltcvt_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A546": {
+  "name": "__cfltcvt",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A567": {
+  "name": "__initp_misc_cfltcvt_tab",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A586": {
+  "name": "__setdefaultprecision",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2010 Release"
+ },
+ "0x0071A5AF": {
+  "name": "__ms_p5_test_fdiv",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A5EB": {
+  "name": "__ms_p5_mp_test_fdiv",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A614": {
+  "name": "___report_gsfailure",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A81A": {
+  "name": "__encoded_null",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071A900": {
+  "name": "__mtterm",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071AA73": {
+  "name": "__getptd",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071AC21": {
+  "name": "__mtinit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071ADD6": {
+  "name": "__malloc_crt",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071AE16": {
+  "name": "__calloc_crt",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071AE5E": {
+  "name": "__realloc_crt",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071AEA9": {
+  "name": "__recalloc_crt",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071AF15": {
+  "name": "__msize",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071AFB8": {
+  "name": "__SEH_prolog4",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0071AFFD": {
+  "name": "__SEH_epilog4",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0071B011": {
+  "name": "_fastzero_I",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0071B068": {
+  "name": "__VEC_memzero",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0071B0F7": {
+  "name": "__flsbuf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071B257": {
+  "name": "_write_char",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071B28A": {
+  "name": "_write_multi_char",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071B2AE": {
+  "name": "_write_string",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071BCB7": {
+  "name": "__vsnprintf_helper",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071BDA8": {
+  "name": "__vsnprintf_c_l",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0071BDD0": {
+  "name": "__vsprintf_s_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071BE71": {
+  "name": "__vsnprintf_s_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071BF76": {
+  "name": "__vsnprintf_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071BFBB": {
+  "name": "__vsnprintf_c_l",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0071C00C": {
+  "name": "___libm_error_support",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071C414": {
+  "name": "__VEC_memcpy",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0071C702": {
+  "name": "__FF_MSGBANNER",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071C8E7": {
+  "name": "__wincmdln",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071CA29": {
+  "name": "_parse_cmdline",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071CBC1": {
+  "name": "__setargv",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071CC7A": {
+  "name": "___crtGetEnvironmentStringsA",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071CDAF": {
+  "name": "__ioinit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071D03B": {
+  "name": "__RTC_Initialize",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071D0DE": {
+  "name": "__heap_init",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071D1B2": {
+  "name": "___security_init_cookie",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071D246": {
+  "name": "__close_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071D2DA": {
+  "name": "__close",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071D3A7": {
+  "name": "__fileno",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071D3D4": {
+  "name": "__freebuf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071D400": {
+  "name": "__filbuf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071DBDE": {
+  "name": "__lseek_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071DC50": {
+  "name": "__lseek",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071DD2C": {
+  "name": "__write_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0071E2F2": {
+  "name": "__write",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00720033": {
+  "name": "__callnewh",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00720079": {
+  "name": "std::bad_exception::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0086A9E4 slot 0"
+ },
+ "0x0072009B": {
+  "name": "___TypeMatch",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072013B": {
+  "name": "___FrameUnwindToState",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00720261": {
+  "name": "___DestructExceptionObject",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007202B5": {
+  "name": "___AdjustPointer",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007205FB": {
+  "name": "IsInExceptionSpec",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00720674": {
+  "name": "CallUnexpected",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072076F": {
+  "name": "CallCatchBlock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072090B": {
+  "name": "___BuildCatchObjectHelper",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00720A8A": {
+  "name": "___BuildCatchObject",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00720B1B": {
+  "name": "___CxxExceptionFilter",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00720C5E": {
+  "name": "CatchIt",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00720CCA": {
+  "name": "FindHandlerForForeignException",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00720DBC": {
+  "name": "FindHandler",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072112A": {
+  "name": "___InternalCxxFrameHandler",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072125A": {
+  "name": "_inconsistency",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721291": {
+  "name": "__initp_eh_hooks",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007212B0": {
+  "name": "__CallSettingFrame@12",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007212FC": {
+  "name": "__stbuf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721392": {
+  "name": "__ftbuf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721794": {
+  "name": "__local_unwind4",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072186A": {
+  "name": "__seh_longjmp_unwind4@4",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00721886": {
+  "name": "@_EH4_CallFilterFunc@8",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072189D": {
+  "name": "@_EH4_TransferToHandler@8",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007218B6": {
+  "name": "@_EH4_GlobalUnwind@4",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007218D0": {
+  "name": "@_EH4_LocalUnwind@16",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007218E7": {
+  "name": "__mtinitlocks",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721930": {
+  "name": "__mtdeletelocks",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007219B2": {
+  "name": "__mtinitlocknum",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721A75": {
+  "name": "__lock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721AB0": {
+  "name": "__ValidateImageBase",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721AE0": {
+  "name": "__FindPESection",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721B30": {
+  "name": "__IsNonwritableInCurrentImage",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2008 Release, VS2010 Release, VS2012 Release, VS2015 Release, VS2017 Release, VS2019 Release"
+ },
+ "0x00721F3C": {
+  "name": "__controlfp_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721FA6": {
+  "name": "__statfp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721FB1": {
+  "name": "__clrfp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00721FBD": {
+  "name": "__ctrlfp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072203A": {
+  "name": "___get_fpsr_sse2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00722056": {
+  "name": "___set_fpsr_sse2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00722310": {
+  "name": "__trandisp1",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00722377": {
+  "name": "__trandisp2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00722525": {
+  "name": "__fload_withFB",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0072258B": {
+  "name": "__math_exit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00722687": {
+  "name": "__startOneArgErrorHandling",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007229C1": {
+  "name": "_write_char",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007229F4": {
+  "name": "_write_multi_char",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00723E97": {
+  "name": "type_info::_Type_info_dtor",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072406C": {
+  "name": "___unDNameHelper",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007241E0": {
+  "name": "_strcmp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072430B": {
+  "name": "___sbh_heap_init",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072437E": {
+  "name": "___sbh_free_block",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00724692": {
+  "name": "___sbh_alloc_new_region",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00724742": {
+  "name": "___sbh_alloc_new_group",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00724848": {
+  "name": "___sbh_resize_block",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00724BF4": {
+  "name": "___sbh_heap_check",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00724F7E": {
+  "name": "___sbh_alloc_block",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725261": {
+  "name": "__floor_default",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725332": {
+  "name": "CPtoLCID",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725361": {
+  "name": "setSBCS",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007253B6": {
+  "name": "setSBUpLow",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725540": {
+  "name": "___updatetmbcinfo",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007255E4": {
+  "name": "getSystemCP",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725837": {
+  "name": "__getmbcp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725873": {
+  "name": "__setmbcp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725A0D": {
+  "name": "___initmbctable",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725A37": {
+  "name": "___freetlocinfo",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725B77": {
+  "name": "___addlocaleref",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725BFD": {
+  "name": "___removelocaleref",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725C89": {
+  "name": "__copytlocinfo_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725CAD": {
+  "name": "__updatetlocinfoEx_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00725CEB": {
+  "name": "___updatetlocinfo",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00726B9A": {
+  "name": "__freea",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00726BCF": {
+  "name": "__crtLCMapStringA_stat",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00726F71": {
+  "name": "___crtLCMapStringA",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00726FB4": {
+  "name": "__isleadbyte_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00726FEA": {
+  "name": "_isleadbyte",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072721B": {
+  "name": "__isctype_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072730C": {
+  "name": "__set_osfhnd",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00727389": {
+  "name": "__free_osfhnd",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072740A": {
+  "name": "__get_osfhandle",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072747B": {
+  "name": "___lock_fhandle",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072751B": {
+  "name": "__unlock_fhandle",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072753D": {
+  "name": "__alloc_osfhnd",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00727800": {
+  "name": "_strlen",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x007280EE": {
+  "name": "__cintrindisp1",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0072812B": {
+  "name": "__ctrandisp2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x007282C1": {
+  "name": "__ctrandisp1",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x007282F4": {
+  "name": "__fload",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00728330": {
+  "name": "__set_exp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00728399": {
+  "name": "__set_bexp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007283BE": {
+  "name": "__sptype",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007284C8": {
+  "name": "__raise_exc_ex",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007287A2": {
+  "name": "__raise_exc",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007287C3": {
+  "name": "__raise_excf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007287E4": {
+  "name": "__handle_exc",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007289C5": {
+  "name": "__set_errno_from_matherr",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00728A0D": {
+  "name": "__errcode",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00728A3A": {
+  "name": "__umatherr",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00728AD8": {
+  "name": "__handle_qnan1",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00728B2B": {
+  "name": "__handle_qnan2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00728B8A": {
+  "name": "__except1",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00728C44": {
+  "name": "__except2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00729870": {
+  "name": "__d_inttype",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00729F74": {
+  "name": "_abort",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072A067": {
+  "name": "__set_abort_behavior",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072A1AB": {
+  "name": "_strcpy_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072A218": {
+  "name": "_write_char",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072A24B": {
+  "name": "_write_multi_char",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072AD08": {
+  "name": "__commit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072ADE9": {
+  "name": "__isalpha_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072AE68": {
+  "name": "__isupper_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072AEE0": {
+  "name": "__islower_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072AF58": {
+  "name": "__isdigit_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072AFA7": {
+  "name": "_isdigit",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072AFD0": {
+  "name": "__isxdigit_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B04F": {
+  "name": "__isspace_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B0C7": {
+  "name": "__ispunct_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B13F": {
+  "name": "__isalnum_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B1BE": {
+  "name": "__isprint_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B23D": {
+  "name": "__isgraph_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B2BC": {
+  "name": "__iscntrl_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B3C5": {
+  "name": "__tolower_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B4DC": {
+  "name": "_tolower",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B503": {
+  "name": "__atodbl_l",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0072B5BC": {
+  "name": "__atoldbl_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B676": {
+  "name": "__atodbl_l",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0072B76C": {
+  "name": "__fptostr",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B829": {
+  "name": "___dtold",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072B980": {
+  "name": "__alldvrm",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BA60": {
+  "name": "__aullshr",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BAD8": {
+  "name": "__get_sse2_info",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BB45": {
+  "name": "__lseeki64_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BBC8": {
+  "name": "__lseeki64",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BCE1": {
+  "name": "__getbuf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BD25": {
+  "name": "__isatty",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BD83": {
+  "name": "__wctomb_s_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BEE2": {
+  "name": "_wctomb_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BEFD": {
+  "name": "__wctomb_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BF4C": {
+  "name": "_wctomb",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072BF80": {
+  "name": "__aulldvrm",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C018": {
+  "name": "__frnd",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C1E6": {
+  "name": "_strcat_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C257": {
+  "name": "_strncpy_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C30A": {
+  "name": "__set_error_mode",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C360": {
+  "name": "x_ismbbtype_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C51E": {
+  "name": "__ismbblead",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C559": {
+  "name": "__ismbbkana_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C5BA": {
+  "name": "__putwch_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C75D": {
+  "name": "__mbtowc_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C870": {
+  "name": "_mbtowc",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072C887": {
+  "name": "__fgetwc_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072CAA6": {
+  "name": "__ungetwc_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072CCC8": {
+  "name": "__iswctype_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072CD4A": {
+  "name": "_iswctype",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072CDBD": {
+  "name": "wcsncnt",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072CDEC": {
+  "name": "__wcstombs_l_helper",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072D04E": {
+  "name": "__wcstombs_s_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072D0FF": {
+  "name": "_wcstombs_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072D11D": {
+  "name": "__EH_prolog3",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0072D150": {
+  "name": "__EH_prolog3_catch",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0072D1F5": {
+  "name": "__EH_epilog3",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0072D227": {
+  "name": "_ValidateRead",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072D234": {
+  "name": "_ValidateExecute",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 3 candidate names"
+ },
+ "0x0072D241": {
+  "name": "_ValidateExecute",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 3 candidate names"
+ },
+ "0x0072D250": {
+  "name": "__global_unwind2",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0072D2B5": {
+  "name": "__local_unwind2",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2017 Debug, VS2017 Release, VS2019 Debug, VS2019 Release"
+ },
+ "0x0072D35C": {
+  "name": "__NLG_Notify1",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2017 Debug, VS2017 Release, VS2019 Debug, VS2019 Release"
+ },
+ "0x0072D365": {
+  "name": "__NLG_Notify",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2017 Debug, VS2017 Release, VS2019 Debug, VS2019 Release"
+ },
+ "0x0072DB96": {
+  "name": "__sopen_helper",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0072DC62": {
+  "name": "__sopen",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0072DC92": {
+  "name": "__sopen_s",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0072DCB0": {
+  "name": "__mbsicmp_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072DECA": {
+  "name": "__mbsicmp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072DEDD": {
+  "name": "__mbsnbcmp_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072E046": {
+  "name": "__mbsnbcmp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072E05D": {
+  "name": "__crtGetLocaleInfoW_stat",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072E198": {
+  "name": "___crtGetLocaleInfoW",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072E1D3": {
+  "name": "__crtGetLocaleInfoA_stat",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072E310": {
+  "name": "___crtGetLocaleInfoA",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072E34B": {
+  "name": "__87except",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072E447": {
+  "name": "strtoxl",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072E672": {
+  "name": "_strtol",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072E6B6": {
+  "name": "_strtoul",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072F4AC": {
+  "name": "HeapManager::Destructor",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072F4D2": {
+  "name": "UnDecorator::getNumberOfDimensions",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072F535": {
+  "name": "UnDecorator::getTypeEncoding",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FA7D": {
+  "name": "UnDecorator::UScore",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FA96": {
+  "name": "HeapManager::getMemory",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FB39": {
+  "name": "DName::DName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FC4F": {
+  "name": "DName::operator=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FCD3": {
+  "name": "Replicator::operator[]",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FD09": {
+  "name": "DNameNode::operator+=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FD48": {
+  "name": "charNode::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008732A4 slot 0"
+ },
+ "0x0072FD4C": {
+  "name": "charNode::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008732A4 slot 1"
+ },
+ "0x0072FD50": {
+  "name": "charNode::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008732A4 slot 2"
+ },
+ "0x0072FD6B": {
+  "name": "pcharNode::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008732D4 slot 0"
+ },
+ "0x0072FD6F": {
+  "name": "pDNameNode::pDNameNode",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FD9E": {
+  "name": "DNameStatusNode::DNameStatusNode",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FDC3": {
+  "name": "DNameStatusNode::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008732C4 slot 0"
+ },
+ "0x0072FDC7": {
+  "name": "DNameStatusNode::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008732C4 slot 1"
+ },
+ "0x0072FDE2": {
+  "name": "und_strncpy",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FE27": {
+  "name": "UnDecorator::getDataIndirectType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FE5A": {
+  "name": "UnDecorator::getThisType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FEA1": {
+  "name": "DName::DName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FEF7": {
+  "name": "DName::DName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FF58": {
+  "name": "DName::isValid",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FF6F": {
+  "name": "DName::isEmpty",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FF84": {
+  "name": "DName::isUDC",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FFBA": {
+  "name": "DName::length",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0072FFDF": {
+  "name": "DName::getLastChar",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730017": {
+  "name": "DName::getString",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007300A8": {
+  "name": "DName::operator|=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007300DD": {
+  "name": "DName::operator=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073015E": {
+  "name": "Replicator::Replicator",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073017C": {
+  "name": "Replicator::operator+=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007301C3": {
+  "name": "DNameNode::clone",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073020A": {
+  "name": "pcharNode::pcharNode",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073026F": {
+  "name": "pcharNode::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008732D4 slot 1"
+ },
+ "0x00730281": {
+  "name": "pcharNode::getString",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007302B2": {
+  "name": "pDNameNode::length",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007302C1": {
+  "name": "pDNameNode::getLastChar",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007302D0": {
+  "name": "pDNameNode::getString",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007302ED": {
+  "name": "DNameStatusNode::getString",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730320": {
+  "name": "UnDecorator::UnDecorator",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730393": {
+  "name": "UnDecorator::getReturnType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007303D1": {
+  "name": "DName::operator+=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073044A": {
+  "name": "DName::operator=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007304B2": {
+  "name": "DName::doPchar",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730558": {
+  "name": "DName::DName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073057E": {
+  "name": "DName::DName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007305AF": {
+  "name": "DName::DName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073067F": {
+  "name": "DName::DName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073077E": {
+  "name": "DName::operator+",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007307AC": {
+  "name": "DName::operator+=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073080E": {
+  "name": "DName::operator+=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730899": {
+  "name": "DName::operator=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007308B5": {
+  "name": "DName::operator=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007308DF": {
+  "name": "UnDecorator::getCallingConvention",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730985": {
+  "name": "UnDecorator::getVCallThunkType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007309BC": {
+  "name": "DName::operator+",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730A0D": {
+  "name": "DName::operator+",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730A3B": {
+  "name": "DName::operator+=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730AA5": {
+  "name": "DName::operator+=",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730B11": {
+  "name": "UnDecorator::getArgumentList",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730BF1": {
+  "name": "UnDecorator::getVdispMapType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730C40": {
+  "name": "operator+",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730C62": {
+  "name": "operator+",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730C84": {
+  "name": "operator+",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730CA6": {
+  "name": "DName::operator+",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730CD4": {
+  "name": "DName::operator+",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730D02": {
+  "name": "UnDecorator::getDimension",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730E43": {
+  "name": "UnDecorator::getEnumType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730F17": {
+  "name": "UnDecorator::getArgumentTypes",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00730FDB": {
+  "name": "UnDecorator::getThrowTypes",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00731059": {
+  "name": "UnDecorator::getExtendedDataIndirectType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073117E": {
+  "name": "UnDecorator::getArrayType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007312DD": {
+  "name": "UnDecorator::getLexicalFrame",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00731344": {
+  "name": "UnDecorator::getVfTableType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00731494": {
+  "name": "UnDecorator::getStringEncoding",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00731534": {
+  "name": "UnDecorator::getSignedDimension",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00731584": {
+  "name": "UnDecorator::getTemplateConstant",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073183F": {
+  "name": "UnDecorator::getPtrRefDataType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073192C": {
+  "name": "UnDecorator::getTemplateArgumentList",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00731AE4": {
+  "name": "UnDecorator::getOperatorName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00732053": {
+  "name": "UnDecorator::getTemplateName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007321A6": {
+  "name": "UnDecorator::getZName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00732390": {
+  "name": "UnDecorator::getScopedName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00732483": {
+  "name": "UnDecorator::getECSUDataType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00732583": {
+  "name": "UnDecorator::getSymbolName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007325C9": {
+  "name": "UnDecorator::getBasedType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073265B": {
+  "name": "UnDecorator::composeDeclaration",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073319D": {
+  "name": "UnDecorator::getDecoratedName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007333AE": {
+  "name": "UnDecorator::getScope",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00733639": {
+  "name": "UnDecorator::getFunctionIndirectType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073397A": {
+  "name": "UnDecorator::getDataIndirectType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00733E5E": {
+  "name": "UnDecorator::operator char *",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00733FAA": {
+  "name": "UnDecorator::getPtrRefType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00734111": {
+  "name": "___unDName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007345DE": {
+  "name": "UnDecorator::getPrimaryDataType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073471C": {
+  "name": "UnDecorator::getDataType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007347CD": {
+  "name": "UnDecorator::getExternalDataType",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00734831": {
+  "name": "__crtGetStringTypeA_stat",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007349E9": {
+  "name": "___crtGetStringTypeA",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00734A58": {
+  "name": "__get_lc_time",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00734E71": {
+  "name": "___free_lc_time",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00735001": {
+  "name": "___init_time",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007350A7": {
+  "name": "___free_lconv_num",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007350E7": {
+  "name": "___init_numeric",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007352E2": {
+  "name": "___free_lconv_mon",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073536B": {
+  "name": "___init_monetary",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073562F": {
+  "name": "___init_ctype",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007359C4": {
+  "name": "____mb_cur_max_func",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00735A03": {
+  "name": "____lc_codepage_func",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00735FE4": {
+  "name": "_store_str",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0073603A": {
+  "name": "_store_num",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x007368F6": {
+  "name": "__Strftime_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736AA5": {
+  "name": "__strftime_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736AE0": {
+  "name": "__Strftime",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736B30": {
+  "name": "_strcspn",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x00736B76": {
+  "name": "_TranslateName",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736BEA": {
+  "name": "_ProcessCodePage",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736C61": {
+  "name": "_TestDefaultCountry",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736C7F": {
+  "name": "_LcidFromHexString",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736CB1": {
+  "name": "_GetPrimaryLen",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736CCC": {
+  "name": "_CountryEnumProc@4",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736D62": {
+  "name": "_TestDefaultLanguage",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736DD4": {
+  "name": "_LangCountryEnumProc@4",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00736FA4": {
+  "name": "_LanguageEnumProc@4",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073708F": {
+  "name": "_GetLcidFromLangCountry",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x007370F4": {
+  "name": "_GetLcidFromLanguage",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00738885": {
+  "name": "_memcmp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00739F05": {
+  "name": "_strncmp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00739FD0": {
+  "name": "_strpbrk",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Debug, VS2005 Release"
+ },
+ "0x0073A010": {
+  "name": "___ansicp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073A057": {
+  "name": "___convertcp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073A2D9": {
+  "name": "__RoundMan",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073A407": {
+  "name": "__ShrMan",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073A49F": {
+  "name": "__ld12cvt",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073A9C8": {
+  "name": "__ld12tod",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0073AF0A": {
+  "name": "__ld12tod",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0073B44C": {
+  "name": "__ld12told",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073B569": {
+  "name": "___ld12mul",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073C1A6": {
+  "name": "___STRINGTOLD_L",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x0073CB51": {
+  "name": "___initconout",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073CB9D": {
+  "name": "__filwbuf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073CCCF": {
+  "name": "__ungetc_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073CDED": {
+  "name": "_ungetc",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073CE5F": {
+  "name": "__crtGetStringTypeW_stat",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073D083": {
+  "name": "___crtGetStringTypeW",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073D0C1": {
+  "name": "__chsize_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073D37A": {
+  "name": "__setmode_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073D47C": {
+  "name": "__get_daylight",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 4 candidate names"
+ },
+ "0x0073D5A7": {
+  "name": "___ascii_stricmp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073D5DC": {
+  "name": "__stricmp_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073D6AF": {
+  "name": "__stricmp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073D6FF": {
+  "name": "_atol",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073D755": {
+  "name": "__get_daylight",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 4 candidate names"
+ },
+ "0x0073D789": {
+  "name": "__get_daylight",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 4 candidate names"
+ },
+ "0x0073D7BD": {
+  "name": "__get_daylight",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 4 candidate names"
+ },
+ "0x0073D7F1": {
+  "name": "__get_tzname",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073DFBB": {
+  "name": "___tzset",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E083": {
+  "name": "__strnicmp_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E173": {
+  "name": "__strnicmp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E1CF": {
+  "name": "_xtoa_s@20",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E2AA": {
+  "name": "__itoa_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E2D2": {
+  "name": "__ltoa_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E30F": {
+  "name": "@x64toa_s@24",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E405": {
+  "name": "__i64toa_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E438": {
+  "name": "__ui64toa_s",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E455": {
+  "name": "___mtold12",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E621": {
+  "name": "strtoxq",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E8B5": {
+  "name": "__strtoi64",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E8F9": {
+  "name": "__strtoui64",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073E93E": {
+  "name": "__getenv_helper_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073ED40": {
+  "name": "___ascii_strnicmp",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073EDA1": {
+  "name": "__mbsnbicoll_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073EE8D": {
+  "name": "__mbsnbicoll",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073EEA4": {
+  "name": "___wtomb_environ",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073EF6D": {
+  "name": "__crtCompareStringA_stat",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073F2F6": {
+  "name": "___crtCompareStringA",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073F336": {
+  "name": "__strnicoll_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073F42E": {
+  "name": "__strnicoll",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073F455": {
+  "name": "_findenv",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073F4A2": {
+  "name": "_copy_environ",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073F74B": {
+  "name": "__mbschr_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073F805": {
+  "name": "__mbschr",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073F830": {
+  "name": "_strchr",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073F911": {
+  "name": "std::invalid_argument::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00876050 slot 0"
+ },
+ "0x0073F956": {
+  "name": "std::out_of_range::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x0087605C slot 0"
+ },
+ "0x0073F978": {
+  "name": "std::length_error::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0073F9B7": {
+  "name": "std::out_of_range::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0073FABA": {
+  "name": "_StringCopyWorkerA@12",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073FAF7": {
+  "name": "_StringCopyWorkerW@12",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073FB3B": {
+  "name": "_StringVPrintfWorkerA@16",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0073FB87": {
+  "name": "_StringVPrintfWorkerW@16",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00768DC6": {
+  "name": "_StringCbCopyA@12",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x00768DE3": {
+  "name": "_StringCchCopyW@12",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00768E00": {
+  "name": "_StringCbPrintfA",
+  "source": "fid",
+  "confidence": "medium",
+  "evidence": "VS2005 Release; 2 candidate names"
+ },
+ "0x00768E29": {
+  "name": "_StringCchPrintfW",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0076B7C0": {
+  "name": "EdStream::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DAFD0 slot 0"
+ },
+ "0x0076B810": {
+  "name": "EdStream::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0076B830": {
+  "name": "EdStream::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0076BA30": {
+  "name": "BaseEditor::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB008 slot 2"
+ },
+ "0x0076BA40": {
+  "name": "BaseEditor::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB008 slot 3"
+ },
+ "0x0076BA50": {
+  "name": "BaseEditor::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB008 slot 4"
+ },
+ "0x0076BA60": {
+  "name": "BaseEditor::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB008 slot 5"
+ },
+ "0x0076BA70": {
+  "name": "BaseEditor::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB008 slot 6"
+ },
+ "0x0076BA80": {
+  "name": "BaseEditor::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB008 slot 7"
+ },
+ "0x0076BA90": {
+  "name": "BaseEditor::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB008 slot 8"
+ },
+ "0x0076BAA0": {
+  "name": "BaseEditor::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB008 slot 9"
+ },
+ "0x0076BAB0": {
+  "name": "BaseEditor::vfunc_10",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB008 slot 10"
+ },
+ "0x0076BAC0": {
+  "name": "BaseEditor::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB008 slot 11"
+ },
+ "0x0076BAD0": {
+  "name": "BaseEditor::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB008 slot 12"
+ },
+ "0x0076BAE0": {
+  "name": "BaseEditor::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB008 slot 0"
+ },
+ "0x0076BB20": {
+  "name": "EditorSettings::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB040 slot 0"
+ },
+ "0x0076BD40": {
+  "name": "KnotHelper::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB0FC slot 1"
+ },
+ "0x0076BD80": {
+  "name": "EdSubSystem::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB17C slot 1"
+ },
+ "0x0076BD90": {
+  "name": "EdSubSystem::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB17C slot 2"
+ },
+ "0x0076BDA0": {
+  "name": "EdSubSystem::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB17C slot 3"
+ },
+ "0x0076BDB0": {
+  "name": "EdSubSystem::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB17C slot 4"
+ },
+ "0x0076BDC0": {
+  "name": "EdSubSystem::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB17C slot 5"
+ },
+ "0x0076BDD0": {
+  "name": "EdSubSystem::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB17C slot 0"
+ },
+ "0x0076BF50": {
+  "name": "BaseEditor::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB008 slot 1"
+ },
+ "0x0076C080": {
+  "name": "ClassEditor::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB324 slot 3"
+ },
+ "0x0076C090": {
+  "name": "ClassEditor::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB324 slot 4"
+ },
+ "0x0076C0A0": {
+  "name": "ClassEditor::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB324 slot 6"
+ },
+ "0x0076C0F0": {
+  "name": "ClassEditor::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB324 slot 7"
+ },
+ "0x0076C140": {
+  "name": "ClassEditor::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB324 slot 8"
+ },
+ "0x0076C180": {
+  "name": "ClassEditor::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB324 slot 9"
+ },
+ "0x0076C1C0": {
+  "name": "ClassEditor::vfunc_10",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB324 slot 10"
+ },
+ "0x0076E660": {
+  "name": "LevelEditor::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB6E4 slot 7"
+ },
+ "0x0076E670": {
+  "name": "LevelEditor::vfunc_10",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB6E4 slot 10"
+ },
+ "0x0076E760": {
+  "name": "Placeable::vfunc_10",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 10"
+ },
+ "0x0076E7A0": {
+  "name": "Placeable::vfunc_11",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 11"
+ },
+ "0x0076E7D0": {
+  "name": "Placeable::vfunc_12",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 12"
+ },
+ "0x0076E810": {
+  "name": "Placeable::vfunc_13",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 13"
+ },
+ "0x0076EDB0": {
+  "name": "EdClassInterface::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 3"
+ },
+ "0x0076EE00": {
+  "name": "EdRef::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB288 slot 0"
+ },
+ "0x0076F740": {
+  "name": "SpecialObject::vfunc_16",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 16"
+ },
+ "0x0076F750": {
+  "name": "SpecialObject::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 3"
+ },
+ "0x0076F760": {
+  "name": "SpecialObject::vfunc_17",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 17"
+ },
+ "0x0076F770": {
+  "name": "SpecialObject::vfunc_18",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 18"
+ },
+ "0x0076F790": {
+  "name": "SpecialObject::vfunc_19",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 19"
+ },
+ "0x0076F7A0": {
+  "name": "SpecialObject::vfunc_20",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 20"
+ },
+ "0x0076F7C0": {
+  "name": "SpecialObject::vfunc_21",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 21"
+ },
+ "0x0076F7E0": {
+  "name": "SpecialObject::vfunc_22",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 22"
+ },
+ "0x0076F800": {
+  "name": "SpecialObject::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 5"
+ },
+ "0x0076F840": {
+  "name": "SpecialObject::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 6"
+ },
+ "0x0076F860": {
+  "name": "SpecialObject::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 7"
+ },
+ "0x0076F880": {
+  "name": "SpecialObject::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 8"
+ },
+ "0x0076F8A0": {
+  "name": "SpecialObject::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 9"
+ },
+ "0x0076F8C0": {
+  "name": "SpecialObject::vfunc_10",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 10"
+ },
+ "0x0076F8F0": {
+  "name": "SpecialObject::vfunc_11",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 11"
+ },
+ "0x0076F900": {
+  "name": "SpecialObject::vfunc_12",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 12"
+ },
+ "0x0076F930": {
+  "name": "SpecialObject::vfunc_13",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 13"
+ },
+ "0x0076F950": {
+  "name": "SpecialObject::vfunc_14",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 14"
+ },
+ "0x0076F980": {
+  "name": "SceneInstance::vfunc_19",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 19"
+ },
+ "0x0076F990": {
+  "name": "SceneInstance::vfunc_20",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 20"
+ },
+ "0x0076F9A0": {
+  "name": "SceneInstance::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 6"
+ },
+ "0x0076F9B0": {
+  "name": "SceneInstance::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 7"
+ },
+ "0x0076F9C0": {
+  "name": "SceneInstance::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 8"
+ },
+ "0x0076F9E0": {
+  "name": "SceneInstance::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 9"
+ },
+ "0x0076FA00": {
+  "name": "SceneInstance::vfunc_10",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 10"
+ },
+ "0x0076FA50": {
+  "name": "SceneInstance::vfunc_11",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 11"
+ },
+ "0x0076FA90": {
+  "name": "SceneInstance::vfunc_12",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 12"
+ },
+ "0x0076FAF0": {
+  "name": "SceneInstance::vfunc_13",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 13"
+ },
+ "0x0076FB30": {
+  "name": "SceneInstance::vfunc_14",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 14"
+ },
+ "0x0076FB50": {
+  "name": "SceneObjectHelper::vfunc_22",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 22"
+ },
+ "0x0076FB60": {
+  "name": "SceneObjectHelper::vfunc_23",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 23"
+ },
+ "0x0076FB70": {
+  "name": "SceneObjectHelper::vfunc_21",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 21"
+ },
+ "0x00770A60": {
+  "name": "SplineHelper::vfunc_22",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB5AC slot 22"
+ },
+ "0x00770A70": {
+  "name": "KnotHelper::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB0FC slot 5"
+ },
+ "0x00770B10": {
+  "name": "EdInputStream::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB1F8 slot 3"
+ },
+ "0x00770B40": {
+  "name": "EdOutputStream::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB21C slot 4"
+ },
+ "0x00770B60": {
+  "name": "EdOutputStream::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB21C slot 3"
+ },
+ "0x00770B80": {
+  "name": "EdFileInputStream::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB240 slot 1"
+ },
+ "0x00770BA0": {
+  "name": "EdFileInputStream::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB240 slot 2"
+ },
+ "0x00770C10": {
+  "name": "EdFileOutputStream::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB264 slot 1"
+ },
+ "0x00770C20": {
+  "name": "EdFileOutputStream::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB264 slot 2"
+ },
+ "0x00771F70": {
+  "name": "EdInputStream::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB1F8 slot 0"
+ },
+ "0x00771FC0": {
+  "name": "EdOutputStream::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB21C slot 0"
+ },
+ "0x00772030": {
+  "name": "EdFileInputStream::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB240 slot 0"
+ },
+ "0x00772090": {
+  "name": "EdFileOutputStream::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB264 slot 0"
+ },
+ "0x00772160": {
+  "name": "Placeable::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 1"
+ },
+ "0x00772170": {
+  "name": "Placeable::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 2"
+ },
+ "0x00772180": {
+  "name": "Placeable::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 3"
+ },
+ "0x007721A0": {
+  "name": "Placeable::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 5"
+ },
+ "0x007721B0": {
+  "name": "Placeable::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 7"
+ },
+ "0x007721C0": {
+  "name": "Placeable::vfunc_09",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 9"
+ },
+ "0x007721D0": {
+  "name": "Placeable::vfunc_14",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 14"
+ },
+ "0x007721E0": {
+  "name": "Placeable::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00772280": {
+  "name": "Placeable::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 4"
+ },
+ "0x00772290": {
+  "name": "Placeable::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 6"
+ },
+ "0x007722B0": {
+  "name": "Placeable::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB29C slot 8"
+ },
+ "0x007722D0": {
+  "name": "Placeable::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB29C slot 0"
+ },
+ "0x007722F0": {
+  "name": "PlaceableInterface::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB04C slot 0"
+ },
+ "0x00772540": {
+  "name": "SplineObject::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB2E4 slot 6"
+ },
+ "0x007725B0": {
+  "name": "SplineObject::vfunc_08",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB2E4 slot 8"
+ },
+ "0x00772620": {
+  "name": "SplineObject::vfunc_10",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB2E4 slot 10"
+ },
+ "0x00772640": {
+  "name": "SplineObject::vfunc_12",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB2E4 slot 12"
+ },
+ "0x00772660": {
+  "name": "SplineObject::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x007726D0": {
+  "name": "SplineObject::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB2E4 slot 0"
+ },
+ "0x00772720": {
+  "name": "KnotHelper::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB0FC slot 0"
+ },
+ "0x00772790": {
+  "name": "ClassEditor::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB324 slot 2"
+ },
+ "0x007727A0": {
+  "name": "ClassEditor::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB324 slot 0"
+ },
+ "0x00772C70": {
+  "name": "EdRef::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00772F40": {
+  "name": "EdRef::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB288 slot 1"
+ },
+ "0x00772F80": {
+  "name": "EdRef::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB288 slot 2"
+ },
+ "0x00773BB0": {
+  "name": "SpecialObject::vfunc_15",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 15"
+ },
+ "0x00773C10": {
+  "name": "EdRefSpecialObject::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB41C slot 1"
+ },
+ "0x00773C90": {
+  "name": "EdRefSpecialObject::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB41C slot 2"
+ },
+ "0x00773D70": {
+  "name": "SceneInstance::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00773DD0": {
+  "name": "SceneInstance::vfunc_03",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 3"
+ },
+ "0x00773DE0": {
+  "name": "SceneInstance::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 4"
+ },
+ "0x00773E00": {
+  "name": "SceneObjectHelper::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 1"
+ },
+ "0x00773EB0": {
+  "name": "SceneObjectHelper::vfunc_19",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 19"
+ },
+ "0x00774040": {
+  "name": "SceneObjectHelper::vfunc_20",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 20"
+ },
+ "0x00774220": {
+  "name": "SceneObjectHelper::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 2"
+ },
+ "0x00774230": {
+  "name": "SceneObjectHelper::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 4"
+ },
+ "0x00774360": {
+  "name": "SceneObjectHelper::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 5"
+ },
+ "0x00774400": {
+  "name": "SceneObjectHelper::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 6"
+ },
+ "0x00774470": {
+  "name": "SceneObjectHelper::vfunc_C_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB62C slot 5"
+ },
+ "0x00774520": {
+  "name": "SplinePointBlock::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00774570": {
+  "name": "SplinePointBlock::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB1EC slot 0"
+ },
+ "0x007745D0": {
+  "name": "SplinePointBlock::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00774ED0": {
+  "name": "EdRefSpline::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB588 slot 1"
+ },
+ "0x00774F90": {
+  "name": "EdRefSpline::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB588 slot 2"
+ },
+ "0x00775060": {
+  "name": "EdRefKnot::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB598 slot 1"
+ },
+ "0x00775190": {
+  "name": "EdRefKnot::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB598 slot 2"
+ },
+ "0x007752C0": {
+  "name": "SplineHelper::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB5AC slot 1"
+ },
+ "0x007752F0": {
+  "name": "SplineHelper::vfunc_19",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB5AC slot 19"
+ },
+ "0x007754A0": {
+  "name": "SplineHelper::vfunc_20",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB5AC slot 20"
+ },
+ "0x00775590": {
+  "name": "SplineHelper::vfunc_26",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB5AC slot 26"
+ },
+ "0x00775690": {
+  "name": "SplineHelper::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB5AC slot 2"
+ },
+ "0x007756A0": {
+  "name": "SplineHelper::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB5AC slot 4"
+ },
+ "0x007756C0": {
+  "name": "SplineHelper::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB5AC slot 5"
+ },
+ "0x00775720": {
+  "name": "SplineHelper::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB5AC slot 6"
+ },
+ "0x007758E0": {
+  "name": "KnotHelper::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB0FC slot 2"
+ },
+ "0x00775900": {
+  "name": "KnotHelper::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB0FC slot 4"
+ },
+ "0x00775960": {
+  "name": "KnotHelper::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB0FC slot 6"
+ },
+ "0x00775A10": {
+  "name": "EdInputStream::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB1F8 slot 5"
+ },
+ "0x00775AB0": {
+  "name": "EdInputStream::vfunc_04",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB1F8 slot 4"
+ },
+ "0x00775B20": {
+  "name": "EdOutputStream::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB21C slot 5"
+ },
+ "0x00775BD0": {
+  "name": "EdFileInputStream::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB240 slot 6"
+ },
+ "0x00775D30": {
+  "name": "EdFileInputStream::vfunc_07",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB240 slot 7"
+ },
+ "0x00775DE0": {
+  "name": "EdFileOutputStream::vfunc_06",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB264 slot 6"
+ },
+ "0x007761B0": {
+  "name": "SplineHelper::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB5AC slot 21"
+ },
+ "0x007761C0": {
+  "name": "SplineHelper::scalar_deleting_dtor",
+  "source": "rtti",
+  "confidence": "medium",
+  "evidence": "vtable 0x008DB5AC slot 0"
+ },
+ "0x00776240": {
+  "name": "SceneObjectHelper::vfunc_C_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB62C slot 0"
+ },
+ "0x00776250": {
+  "name": "SceneObjectHelper::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB64C slot 0"
+ },
+ "0x00776280": {
+  "name": "ClassEditor::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB324 slot 1"
+ },
+ "0x007767E0": {
+  "name": "LevelEditor::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB6E4 slot 1"
+ },
+ "0x007767F0": {
+  "name": "LevelEditor::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB6E4 slot 0"
+ },
+ "0x00776D20": {
+  "name": "EdRefPlaceable::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB578 slot 1"
+ },
+ "0x00776E00": {
+  "name": "EdRefPlaceable::vfunc_02",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB578 slot 2"
+ },
+ "0x00776F80": {
+  "name": "EdClassInterface::vfunc_28",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 28"
+ },
+ "0x007770A0": {
+  "name": "EdClassInterface::vfunc_27",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x00833FA4 slot 27"
+ },
+ "0x00777480": {
+  "name": "EdRef::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00777B60": {
+  "name": "SpecialObject::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB3BC slot 0"
+ },
+ "0x00777B80": {
+  "name": "SceneObject::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB42C slot 0"
+ },
+ "0x00777BC0": {
+  "name": "SceneObject::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB42C slot 1"
+ },
+ "0x00777C00": {
+  "name": "SceneInstance::vfunc_00",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB48C slot 0"
+ },
+ "0x00777C50": {
+  "name": "SceneObjectHelper::Initialise",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'Scene Object'"
+ },
+ "0x007782F0": {
+  "name": "SplineObject::vfunc_01",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB2E4 slot 1"
+ },
+ "0x007788E0": {
+  "name": "SplineHelper::vfunc_23",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB5AC slot 23"
+ },
+ "0x00779100": {
+  "name": "EdFileOutputStream::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00779220": {
+  "name": "EdFileOutputStream::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x00779340": {
+  "name": "EdRegistry::Serialise",
+  "source": "saga",
+  "confidence": "medium",
+  "evidence": "2 literal(s): 'ClassList'"
+ },
+ "0x007794B0": {
+  "name": "EdRegistry::SerialiseObjects",
+  "source": "saga",
+  "confidence": "low",
+  "evidence": "1 literal(s): 'ObjectList'"
+ },
+ "0x00779E60": {
+  "name": "ClassEditor::vfunc_05",
+  "source": "rtti",
+  "confidence": "high",
+  "evidence": "vtable 0x008DB324 slot 5"
+ },
+ "0x0077A728": {
+  "name": "__vsnprintf_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0077A7D9": {
+  "name": "__vsnprintf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0077A7F4": {
+  "name": "__vsnwprintf_l",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0077A8C6": {
+  "name": "__vsnwprintf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0077A8E1": {
+  "name": "_write_char",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0077A906": {
+  "name": "_write_multi_char",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0077A92B": {
+  "name": "_write_string",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0077B28A": {
+  "name": "__fputwc_nolock",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x0077B4E5": {
+  "name": "__flswbuf",
+  "source": "fid",
+  "confidence": "high",
+  "evidence": "VS2005 Release"
+ },
+ "0x00819160": {
+  "name": "NuFmvStreamPCBink::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081ACD0": {
+  "name": "EdClassInterface::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081ACE0": {
+  "name": "EdClassInterface::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AD10": {
+  "name": "FadeBase::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AD20": {
+  "name": "FadeBase::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AD30": {
+  "name": "FadeBase::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AD40": {
+  "name": "FadeBase::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AD50": {
+  "name": "FadeBase::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AD60": {
+  "name": "FadeBase::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AD70": {
+  "name": "FadeBase::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AF10": {
+  "name": "BaseEditor::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AF40": {
+  "name": "EdClassInterface::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AF50": {
+  "name": "EdClassInterface::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ },
+ "0x0081AF60": {
+  "name": "EditorSettings::ctor_or_dtor",
+  "source": "rtti",
+  "confidence": "low",
+  "evidence": "stores the vtable"
+ }
+}

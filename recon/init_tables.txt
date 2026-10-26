@@ -1,0 +1,11 @@
+# CRT initialiser tables: hex VA ranges [first, last) of function pointers that
+# _cinit calls at start-up. One range per line; '#' starts a comment.
+# The PE front end keeps every non-null entry as a function start: Ghidra made
+# no function for 0x7128B4 and the boot stopped at `indirect call to
+# unresolved VA 0x007128B4` from __initterm_e (0x714515, call at 0x714528).
+#
+# __xi_a..__xi_z: 0x7146F2 `push 0x81D82C; push 0x81D50C; call __initterm_e`.
+0x81D50C 0x81D82C
+# __xc_a..__xc_z: 0x714713 `mov esi, 0x81D000` .. `mov edi, 0x81D408`, then the
+# inlined _initterm loop `call eax` at 0x71472A.
+0x81D000 0x81D408

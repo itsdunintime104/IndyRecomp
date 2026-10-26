@@ -1,0 +1,80 @@
+{
+ "switch": [],
+ "tailcall": [
+  5200546,
+  5952559,
+  5957393,
+  5961467,
+  6233128,
+  6608257,
+  6652339,
+  6935254,
+  6970695,
+  7165154,
+  7170594,
+  7207189,
+  7421286,
+  7421994,
+  7797621,
+  7801719,
+  7823797
+ ],
+ "other": [
+  {
+   "addr": 7421298,
+   "context": [
+    "0x713d6d pop eax",
+    "0x713d6e pop ecx",
+    "0x713d6f xchg dword ptr [esp], eax",
+    "0x713d72 jmp eax"
+   ]
+  },
+  {
+   "addr": 7421305,
+   "context": [
+    "0x713d74 pop eax",
+    "0x713d75 pop ecx",
+    "0x713d76 xchg dword ptr [esp], eax",
+    "0x713d79 jmp eax"
+   ]
+  },
+  {
+   "addr": 7421312,
+   "context": [
+    "0x713d7b pop eax",
+    "0x713d7c pop ecx",
+    "0x713d7d xchg dword ptr [esp], eax",
+    "0x713d80 jmp eax"
+   ]
+  },
+  {
+   "addr": 7442793,
+   "context": [
+    "0x719155 push ebp",
+    "0x719156 mov ebp, esp",
+    "0x719158 push dword ptr [0x2a11764]",
+    "0x71915e call 0x71a823",
+    "0x719163 test eax, eax",
+    "0x719165 pop ecx",
+    "0x719166 je 0x71916b",
+    "0x719168 pop ebp",
+    "0x719169 jmp eax"
+   ]
+  },
+  {
+   "addr": 7477428,
+   "context": [
+    "0x7218a1 mov eax, ecx",
+    "0x7218a3 push 1",
+    "0x7218a5 call 0x72d365",
+    "0x7218aa xor eax, eax",
+    "0x7218ac xor ebx, ebx",
+    "0x7218ae xor ecx, ecx",
+    "0x7218b0 xor edx, edx",
+    "0x7218b2 xor edi, edi",
+    "0x7218b4 jmp esi"
+   ]
+  }
+ ],
+ "explained": []
+}
