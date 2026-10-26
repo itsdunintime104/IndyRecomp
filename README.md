@@ -95,8 +95,7 @@ The game boots to its menus and into gameplay, with sound. It was played by hand
 
 ## Known issues
 
-- The game crashes when you quit: the C runtime's exit path (at 0x0071450A) makes an indirect call to 0x0071979E, which the translation does not have yet.
-- DDS textures in the float format A32B32G32R32F (FourCC 116) are not read.
+- Float DDS textures get only the mip levels the file holds; the runtime does not generate float levels.
 - Bink movies (the logos and the intro) are skipped.
 
 ## Troubleshooting
