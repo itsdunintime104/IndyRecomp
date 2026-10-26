@@ -1786,3 +1786,10 @@
 # `indirect call to unresolved VA 0x0069F5F0` from 0x00696ABA; the handler table of
 # menu item 0x402 at 0x96FC9C holds it next to three lifted handlers.
 0x69F5F0  # [0x96FCA0]
+#
+# CRT targets of a direct call with no function at the target, which the lift turned
+# into no-op stubs (lift_report.json unresolved_call_stubs). The comment is the caller.
+0x722898  # call at 0x72333D and 0x723673; the function list started it at the nop at 0x722897
+0x71ABA3  # call at 0x71AB80; the __finally block that releases CRT lock 0xC
+0x71ABA0  # [0x90298C] the unwind entry of that __finally block; it falls into 0x71ABA3
+0x71486F  # call at 0x713282, CRT startup after WinMain; follows the ret of 0x714860
