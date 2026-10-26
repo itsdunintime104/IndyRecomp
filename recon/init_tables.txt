@@ -1,5 +1,6 @@
-# CRT initialiser tables: hex VA ranges [first, last) of function pointers that
-# _cinit calls at start-up. One range per line; '#' starts a comment.
+# CRT initialiser and terminator tables: hex VA ranges [first, last) of function
+# pointers that _cinit calls at start-up and doexit calls at exit. One range per
+# line; '#' starts a comment.
 # The PE front end keeps every non-null entry as a function start: Ghidra made
 # no function for 0x7128B4 and the boot stopped at `indirect call to
 # unresolved VA 0x007128B4` from __initterm_e (0x714515, call at 0x714528).
@@ -9,3 +10,10 @@
 # __xc_a..__xc_z: 0x714713 `mov esi, 0x81D000` .. `mov edi, 0x81D408`, then the
 # inlined _initterm loop `call eax` at 0x71472A.
 0x81D000 0x81D408
+# __xp_a..__xp_z: 0x7147DE `push 0x81DC3C; mov eax, 0x81D930; call _initterm`
+# (0x7144FD, call at 0x714508). Quitting stopped at `indirect call to
+# unresolved VA 0x0071979E` from there: 0x81DB38 holds 0x71979E, the stdio
+# terminator (flush, close all streams, free the stream table), which Ghidra
+# made no function for. Its other entry, 0x73CB70 at 0x81DA34, already was one.
+# __xt_a..__xt_z (0x7147EE, [0x81DD40, 0x81DE44)) is all zero.
+0x81D930 0x81DC3C
