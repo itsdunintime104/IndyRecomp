@@ -34951,6 +34951,10 @@
    "size": 1070
   },
   {
+   "addr": 6944240,
+   "size": 1499
+  },
+  {
    "addr": 6945776,
    "size": 163
   },
@@ -117419,10 +117423,10 @@
    }
   ],
   "function_evidence": {
-   "candidates": 10414,
-   "kept": 11632,
+   "candidates": 10415,
+   "kept": 11633,
    "call": 6066,
-   "listed": 1848,
+   "listed": 1849,
    "jump": 267,
    "imm": 816,
    "orphan": 906,
