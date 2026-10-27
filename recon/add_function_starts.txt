@@ -1262,7 +1262,8 @@
 0x7205B0  # [0x902AF0]
 0x723FF0  # [0x902D28]
 0x726B80  # [0x902E48]
-0x736570  # [0x8296D0]
+# 0x736570 is left out: the dword at 0x8296D0 is string bytes, and the C3 before it
+# is the modrm byte of `cmp eax,ebx` at 0x73656E, not a ret (recon_check.py false-start).
 0x73CB70  # [0x81DA34]
 0x769270  # [0x8DA020]
 0x775E40  # [0x8DB280]
@@ -1793,3 +1794,18 @@
 0x71ABA3  # call at 0x71AB80; the __finally block that releases CRT lock 0xC
 0x71ABA0  # [0x90298C] the unwind entry of that __finally block; it falls into 0x71ABA3
 0x71486F  # call at 0x713282, CRT startup after WinMain; follows the ret of 0x714860
+#
+# Code addresses that an aligned dword of .rdata or .data holds, with no function in the
+# lift, that the sweeps above missed: ILT thunks in a .data struct at 0x914880, CRT
+# locale-category init functions, and CRT handlers off a 16-byte boundary
+# (recon_check.py data-pointer). The comment is the first data VA that holds the address.
+0x40171C  # [0x914888]
+0x401843  # [0x914884]
+0x401848  # [0x914898]
+0x401B4A  # [0x914880]
+0x402473  # [0x91489C]
+0x4024F0  # [0x914890]
+0x7126AA  # [0x86A0F4]
+0x725F42  # [0x86C588]
+0x72BA7F  # [0x979270]
+0x735A75  # [0x86C594]
