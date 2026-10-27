@@ -2,6 +2,8 @@
 > This project does not include any game files. You need your own GOG copy of LEGO Indiana Jones: The Original Adventures (the Windows version).
 
 <h1 align="center">
+  <img src="docs/media/gameplay.gif" alt="LEGO Indiana Jones: The Original Adventures running natively on an M1 Max" width="560">
+  <br>
   Indy Recompiled
 </h1>
 
@@ -10,6 +12,8 @@
   <img src="https://img.shields.io/badge/status-playable-yellow" alt="Status: playable">
   <img src="https://img.shields.io/badge/license-GPL--3.0-blue" alt="License: GPL-3.0">
 </p>
+
+<p align="center"><i>26-second video: <a href="docs/media/gameplay.mp4">gameplay.mp4</a>. Played on an M1 Max; the overlay shows about 100 to 115 FPS.</i></p>
 
 LEGO Indiana Jones: The Original Adventures (Traveller's Tales, 2008) is sold on GOG as a Windows game. This project turns the game's Windows code into C and compiles it into a Mac app for Apple Silicon. It does not use Wine or an emulator. The game's Direct3D 9 graphics go through [DXVK](https://github.com/doitsujin/dxvk) to Vulkan, and [KosmicKrisp](https://docs.mesa3d.org/drivers/kosmickrisp.html) runs Vulkan on Metal.
 
