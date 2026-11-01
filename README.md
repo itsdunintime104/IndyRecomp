@@ -46,7 +46,7 @@ This project is not affiliated with or endorsed by TT Games, LucasArts, Lucasfil
 
 ## Get the game files
 
-The app needs the installed game folder: the one with `LEGOIndy.exe` and the `.DAT` files. Use one of these ways, with your own GOG licence:
+Setup needs the installed game folder: the one with `LEGOIndy.exe` and the `.DAT` files. Use one of these ways, with your own GOG licence:
 
 1. **A Windows PC**: install the game with GOG and copy its folder to your Mac.
 2. **GOG Galaxy inside Wine, CrossOver or Whisky**: `setup.sh` finds the game there.
@@ -73,9 +73,9 @@ Only one version of `LEGOIndy.exe` works: the one with SHA-256 checksum `6c72717
    Without a folder, setup looks in `~/Games`, GOG installs under Wine, CrossOver or Whisky, and external drives. If it finds nothing, it asks.
 4. Open **LEGO Indiana Jones - The Original Adventures** from `~/Applications`.
 
-`setup.sh` checks your Mac and builds the graphics libraries (about 4 minutes, the first time only). Then it copies the game's exe, checks it, translates it, builds the app and installs it. It never writes to the game folder.
+`setup.sh` checks your Mac and builds the graphics libraries (about 4 minutes, the first time only). Then it copies the game's exe, checks it, translates it, builds the app with a copy of the game folder inside it, and installs it. It never writes to the game folder.
 
-Keep the cloned folder: the app reads the game's exe from `orig.nosync/` in it. The app remembers the game folder.
+The app holds its own copy of the game in `Contents/Resources/game`. On the same disk the copy is an APFS clone: it shares disk space with your game folder. After setup the app needs neither this repo nor your game folder. Keep the repo only to build the app again.
 
 | Option | Effect |
 |---|---|
@@ -88,7 +88,7 @@ Keep the cloned folder: the app reads the game's exe from `orig.nosync/` in it. 
 
 The game sees a controller, such as a DualShock 4, as an Xbox controller.
 
-The app reads two settings from the environment: `INDYRECOMP_GAME_DIR` (the game folder, if you moved it after setup) and `INDYRECOMP_EXE` (another copy of the game's exe).
+The app reads two settings from the environment: `INDYRECOMP_GAME_DIR` (another game folder to use instead of the copy inside the app) and `INDYRECOMP_EXE` (another copy of the game's exe).
 
 Each run writes a log to `~/Library/Logs/IndyRecomp/`. The app keeps the newest 20. Attach the log when you report a problem.
 
