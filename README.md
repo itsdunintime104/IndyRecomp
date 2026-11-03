@@ -42,7 +42,7 @@ This project is not affiliated with or endorsed by TT Games, LucasArts, Lucasfil
 - Xcode Command Line Tools
 - Homebrew with the packages listed in [Install](#install)
 - Python 3.11 or newer
-- About 3 GB of free disk space for the build, plus 3.6 GB for the game files
+- About 3 GB of free disk space for the build, plus 3.6 GB for the game files. The copy of the game inside the app takes no extra space when it is on the same disk
 
 ## Get the game files
 
@@ -75,14 +75,43 @@ Only one version of `LEGOIndy.exe` works: the one with SHA-256 checksum `6c72717
 
 `setup.sh` checks your Mac and builds the graphics libraries (about 4 minutes, the first time only). Then it copies the game's exe, checks it, translates it, builds the app with a copy of the game folder inside it, and installs it. It never writes to the game folder.
 
-The app holds its own copy of the game in `Contents/Resources/game`. On the same disk the copy is an APFS clone: it shares disk space with your game folder. After setup the app needs neither this repo nor your game folder. Keep the repo only to build the app again.
-
 | Option | Effect |
 |---|---|
 | `--check` | Only check the requirements |
 | `--force` | Translate again. Use it after `git pull` |
 | `--no-install` | Build the app in `build.nosync/` without copying it to `~/Applications` |
 | `--dry-run` | Print each step without running it |
+
+### What the app holds
+
+```
+~/Applications/LEGO Indiana Jones - The Original Adventures.app
+  Contents/MacOS/            the translated game and its launcher
+  Contents/Frameworks/       DXVK, Vulkan, SDL and FAudio
+  Contents/Resources/game/   your copy of the game
+
+~/Library/Application Support/IndyRecomp/   saves and settings
+~/Library/Caches/IndyRecomp/                shader caches
+~/Library/Logs/IndyRecomp/                  logs
+```
+
+The game folder inside the app is an APFS clone of yours. On the same disk, a clone shares its disk space with the original, so it takes no extra space. On another disk, setup makes a full copy and says so.
+
+After setup the app needs neither this repo nor your game folder, so you can delete the game folder. That frees almost no disk space, because the clone holds the same data. Saves, settings and caches stay outside the app, so building it again does not touch them.
+
+### Build the app again
+
+To update to the latest version:
+
+```sh
+git pull && git submodule update --init && ./setup.sh --force "$HOME/Games/LEGO Indiana Jones"
+```
+
+If you deleted the game folder, give setup the copy inside the app:
+
+```sh
+./setup.sh --force "$HOME/Applications/LEGO Indiana Jones - The Original Adventures.app/Contents/Resources/game"
+```
 
 ## Playing
 
@@ -112,7 +141,8 @@ The game starts, shows its menus and plays, with sound. A DualShock 4 works. It 
 
 | Problem | Fix |
 |---|---|
-| "game folder not found" | Give the folder with `LEGOIndy.exe` to `setup.sh`, or set `INDYRECOMP_GAME_DIR` |
+| `setup.sh` says `LEGOIndy.exe not found` | Give the folder with `LEGOIndy.exe` to `setup.sh`. If you deleted the game folder, see [Build the app again](#build-the-app-again) |
+| The app says "LEGO Indiana Jones: The Original Adventures was not found" | The app has no game inside. Run `./setup.sh` again |
 | `setup.sh` says the checksum does not match | Only the GOG version of `LEGOIndy.exe` works |
 | macOS says the app is damaged | Build the app with `setup.sh` on your own Mac. A copy from another Mac does not run |
 
